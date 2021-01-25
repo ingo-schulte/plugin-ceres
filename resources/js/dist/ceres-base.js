@@ -57259,29 +57259,20 @@ var actions = {
     var selectedAddress = _ref8.selectedAddress,
         addressType = _ref8.addressType;
     return new Promise(function (resolve, reject) {
-      var oldAddress = {};
-
-      if (addressType === "1") {
-        oldAddress = state.billingAddress;
-        commit("selectBillingAddress", selectedAddress);
-      } else if (addressType === "2") {
-        oldAddress = state.deliveryAddress;
-        commit("selectDeliveryAddress", selectedAddress);
-      }
-
       commit("setIsBasketLoading", true);
       ApiService.put("/rest/io/customer/address/" + selectedAddress.id + "?typeId=" + addressType, {
         supressNotifications: true
       }).done(function (response) {
         commit("setIsBasketLoading", false);
-        return resolve(response);
-      }).fail(function (error) {
+
         if (addressType === "1") {
-          commit("selectBillingAddress", oldAddress);
+          commit("selectBillingAddress", selectedAddress);
         } else if (addressType === "2") {
-          commit("selectDeliveryAddress", oldAddress);
+          commit("selectDeliveryAddress", selectedAddress);
         }
 
+        return resolve(response);
+      }).fail(function (error) {
         commit("setIsBasketLoading", false);
         reject(error);
       });
