@@ -57063,7 +57063,6 @@ var mutations = {
     if (billingAddress) {
       state.billingAddressId = billingAddress.id;
       state.billingAddress = billingAddress;
-      document.dispatchEvent(new CustomEvent("billingAddressChanged", state.billingAddress));
     }
   },
   selectBillingAddressById: function selectBillingAddressById(state, billingAddressId) {
@@ -57105,7 +57104,6 @@ var mutations = {
     if (deliveryAddress) {
       state.deliveryAddressId = deliveryAddress.id;
       state.deliveryAddress = deliveryAddress;
-      document.dispatchEvent(new CustomEvent("deliveryAddressChanged", state.deliveryAddress));
     }
   },
   removeBillingAddress: function removeBillingAddress(state, billingAddress) {
@@ -57231,6 +57229,7 @@ var actions = {
     commit("selectBillingAddress", addressList.find(function (address) {
       return address.id === id;
     }));
+    document.dispatchEvent(new CustomEvent("billingAddressChanged", state.billingAddress));
   },
   initDeliveryAddress: function initDeliveryAddress(_ref5, _ref6) {
     var commit = _ref5.commit;
@@ -57250,6 +57249,7 @@ var actions = {
     commit("selectDeliveryAddress", addressList.find(function (address) {
       return address.id === id;
     }));
+    document.dispatchEvent(new CustomEvent("deliveryAddressChanged", state.deliveryAddress));
   },
   selectAddress: function selectAddress(_ref7, _ref8) {
     var commit = _ref7.commit,
@@ -57259,6 +57259,16 @@ var actions = {
     var selectedAddress = _ref8.selectedAddress,
         addressType = _ref8.addressType;
     return new Promise(function (resolve, reject) {
+      var oldAddress = {};
+
+      if (addressType === "1") {
+        oldAddress = state.billingAddress;
+        commit("selectBillingAddress", selectedAddress);
+      } else if (addressType === "2") {
+        oldAddress = state.deliveryAddress;
+        commit("selectDeliveryAddress", selectedAddress);
+      }
+
       commit("setIsBasketLoading", true);
       ApiService.put("/rest/io/customer/address/" + selectedAddress.id + "?typeId=" + addressType, {
         supressNotifications: true
@@ -57266,13 +57276,19 @@ var actions = {
         commit("setIsBasketLoading", false);
 
         if (addressType === "1") {
-          commit("selectBillingAddress", selectedAddress);
+          document.dispatchEvent(new CustomEvent("billingAddressChanged", state.billingAddress));
         } else if (addressType === "2") {
-          commit("selectDeliveryAddress", selectedAddress);
+          document.dispatchEvent(new CustomEvent("deliveryAddressChanged", state.deliveryAddress));
         }
 
         return resolve(response);
       }).fail(function (error) {
+        if (addressType === "1") {
+          commit("selectBillingAddress", oldAddress);
+        } else if (addressType === "2") {
+          commit("selectDeliveryAddress", oldAddress);
+        }
+
         commit("setIsBasketLoading", false);
         reject(error);
       });
