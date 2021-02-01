@@ -506,7 +506,8 @@ var render = function() {
           attrs: {
             id: "owl-carousel-" + _vm._uid,
             href: _vm.itemUrl,
-            role: "listbox"
+            role: "listbox",
+            "aria-label": _vm.$translate("Ceres::Template.itemImageCarousel")
           }
         },
         _vm._l(_vm.imageUrls, function(imageUrl, index) {
