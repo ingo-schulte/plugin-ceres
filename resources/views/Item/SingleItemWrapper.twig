@@ -126,4 +126,29 @@
         {% include "Ceres::Item.SingleItemView" %}
     {% endif %}
 
+    <h1>Test</h1>
+
+    {% set list1 = services.itemList.getItemList( "cross_selling", 258, "sorting.price.avg_asc" ,12,'Accessory').documents %}
+    
+    <div>len: {{ list1 | length }}</div>
+    <br>
+
+    <script2>
+        const json = JSON.parse(`{{ list1 | json_encode }}`)
+        console.log(json)
+    </script2>
+
+    {% set list2 = services.itemList.getItemList( "cross_selling", null, "sorting.price.avg_asc" ,12,'Accessory').documents %}
+    
+    <div>len: {{ list2 | length }}</div>
+    <br>
+    <script2>
+        const json2 = JSON.parse(`{{ list2 | json_encode }}`)
+        console.log(json2)
+    </script2>
+
+
+    
+    
+
 {% endblock %}

@@ -34987,7 +34987,8 @@ var render = function() {
                     staticClass: "nav-link",
                     attrs: {
                       href: _vm.isLogin ? "javascript:void(0)" : "#login",
-                      "data-toggle": _vm.isLogin ? false : "modal"
+                      "data-toggle": _vm.isLogin ? false : "modal",
+                      "aria-label": _vm.$translate("Ceres::Template.login")
                     },
                     on: {
                       click: function($event) {
@@ -35023,7 +35024,10 @@ var render = function() {
                         href: _vm.isRegister
                           ? "javascript:void(0)"
                           : "#registration",
-                        "data-toggle": _vm.isRegister ? false : "modal"
+                        "data-toggle": _vm.isRegister ? false : "modal",
+                        "aria-label": _vm.$translate(
+                          "Ceres::Template.loginRegister"
+                        )
                       },
                       on: {
                         click: function($event) {
@@ -36065,7 +36069,13 @@ var render = function() {
                 ],
                 ref: "searchInput",
                 staticClass: "search-input flex-grow-1 px-3 py-2",
-                attrs: { type: "search", autofocus: _vm.isShopBuilder },
+                attrs: {
+                  type: "search",
+                  autofocus: _vm.isShopBuilder,
+                  "aria-label": _vm.$translate(
+                    "Ceres::Template.headerSearchTerm"
+                  )
+                },
                 domProps: { value: _vm.searchString },
                 on: {
                   input: [
@@ -36102,7 +36112,12 @@ var render = function() {
                   "button",
                   {
                     staticClass: "search-submit px-3",
-                    attrs: { type: "submit" },
+                    attrs: {
+                      type: "submit",
+                      "aria-label": _vm.$translate(
+                        "Ceres::Template.headerSearch"
+                      )
+                    },
                     on: {
                       click: function($event) {
                         return _vm.search()
@@ -36605,7 +36620,11 @@ var render = function() {
     "a",
     {
       staticClass: "nav-link",
-      attrs: { href: _vm.urlWishList, rel: "nofollow" }
+      attrs: {
+        href: _vm.urlWishList,
+        rel: "nofollow",
+        "aria-label": _vm.$translate("Ceres::Template.wishList")
+      }
     },
     [
       _c("span", { staticClass: "badge-right mr-1 d-none d-sm-inline" }, [
