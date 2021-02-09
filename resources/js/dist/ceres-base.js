@@ -54037,7 +54037,7 @@ function getLabelForId(id) {
 }
 function serializeForm(form) {
   var formData = {};
-  var formElements = form.querySelectorAll("[name]:not(.g-recaptcha-response, [type=file])");
+  var formElements = form.querySelectorAll("[name]:not(.g-recaptcha-response):not([type=file])");
 
   var _iterator2 = _createForOfIteratorHelper(formElements),
       _step2;

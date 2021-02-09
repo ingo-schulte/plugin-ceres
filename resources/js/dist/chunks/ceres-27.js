@@ -9,9 +9,27 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.function.name */ "./node_modules/core-js/modules/es.function.name.js");
-/* harmony import */ var core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.from */ "./node_modules/core-js/modules/es.array.from.js");
+/* harmony import */ var core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.array.join */ "./node_modules/core-js/modules/es.array.join.js");
+/* harmony import */ var core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.map */ "./node_modules/core-js/modules/es.array.map.js");
+/* harmony import */ var core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.function.name */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.string.iterator */ "./node_modules/core-js/modules/es.string.iterator.js");
+/* harmony import */ var core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_4__);
 
+
+
+
+
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -39,53 +57,28 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   props: {
-    allowMultiple: {
-      type: Boolean
-    },
-    allowedFileExtensions: {
-      type: String
-    },
-    isRequired: {
-      type: Boolean
-    },
-    formFieldId: {
-      type: String
-    },
-    label: {
-      type: String
-    }
+    allowMultiple: Boolean,
+    allowedFileExtensions: String,
+    isRequired: Boolean,
+    formFieldId: String,
+    label: String
   },
   mounted: function mounted() {
     var _this = this;
 
     this.$nextTick(function () {
       if (_this.isRequired) {
-        _this.$refs.fileInput.setAttribute("data-validate", "file");
+        _this.$refs.inputUnit.setAttribute("data-validate", "file");
       }
     });
   },
   methods: {
-    collectFiles: function collectFiles(e) {
-      this.filesChanged(e.target.files);
-      var fileNames = "";
-
-      for (var i = 0; i < e.target.files.length; i++) {
-        if (i > 0) {
-          fileNames += ", ";
-        }
-
-        fileNames = fileNames + e.target.files[i].name;
-      }
-
-      this.selectedFiles = fileNames;
-    },
-    filesChanged: function filesChanged(fileList) {
+    collectFiles: function collectFiles(event) {
+      var fileList = event.target.files;
+      this.selectedFiles = Array.from(fileList).map(function (file) {
+        return file.name;
+      }).join(", ");
       this.$emit('files-changed', fileList);
-    }
-  },
-  computed: {
-    fileNames: function fileNames() {
-      return this.selectedFiles;
     }
   }
 });
@@ -108,11 +101,12 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "label",
+    "div",
     {
       directives: [{ name: "tooltip", rawName: "v-tooltip" }],
+      ref: "inputUnit",
       staticClass: "input-unit file-input",
-      attrs: { "data-toggle": "tooltip", title: _vm.fileNames }
+      attrs: { "data-toggle": "tooltip", title: _vm.selectedFiles }
     },
     [
       _c("label", { attrs: { for: _vm.formFieldId } }, [
@@ -121,13 +115,12 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("span", { staticClass: "input-unit-preview" }, [
-        _vm._v(_vm._s(_vm.fileNames))
+        _vm._v(_vm._s(_vm.selectedFiles))
       ]),
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
       _c("input", {
-        ref: "fileInput",
         attrs: {
           type: "file",
           multiple: _vm.allowMultiple,
