@@ -10,17 +10,24 @@ use IO\Helper\RouteConfig;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultBasketPreset
+ *
+ * Preset class for the basket
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultBasketPreset implements ContentPreset
 {
     use HasWhiteBackground;
 
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset*/
     private $preset;
 
-    /** @var ShopUrls */
+    /** @var ShopUrls $shopUrls*/
     private $shopUrls;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
     
     /**

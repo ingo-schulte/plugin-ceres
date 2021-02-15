@@ -4,6 +4,13 @@ namespace Ceres\Widgets\Grid;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
+/**
+ * Class GridWidget
+ *
+ * Widget class to provide data and settings for the grid widget
+ *
+ * @package Ceres\Widgets\Grid
+ */
 class GridWidget extends BaseWidget
 {
     /**

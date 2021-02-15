@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use IO\Services\Order\Factories\OrderResultFactory;
 
+/**
+ * Class OrderReturnWidget
+ *
+ * Widget class to provide data and settings for the order return widget
+ *
+ * @package Ceres\Widgets\OrderConfirmation
+ */
 class OrderReturnWidget extends OrderConfirmationBaseWidget
 {
     /** @inheritDoc */

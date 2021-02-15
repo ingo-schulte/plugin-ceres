@@ -1,9 +1,14 @@
 <?php
 
-
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
-
+/**
+ * Class FileSettingFactory
+ *
+ * Factory class for file setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class FileSettingFactory extends BaseSettingFactory
 {
     public function __construct()
@@ -13,6 +18,8 @@ class FileSettingFactory extends BaseSettingFactory
     }
 
     /**
+     * Set if the preview should be shown
+     *
      * @param boolean $showPreview
      * @return FileSettingFactory
      */
@@ -22,7 +29,9 @@ class FileSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * @param string[] $allowedExtensions
+     * Set the allowed file extensions
+     *
+     * @param array $allowedExtensions
      * @return FileSettingFactory
      */
     public function withAllowedExtensions($allowedExtensions)
@@ -31,7 +40,9 @@ class FileSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * @param boolean $foldersAllowed
+     * Set if picking folders is allowed
+     *
+     * @param bool $foldersAllowed
      * @return FileSettingFactory
      */
     public function withFoldersAllowed($foldersAllowed)

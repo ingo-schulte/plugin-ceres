@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultChangeMailPreset
+ *
+ * Preset class for change mail
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultChangeMailPreset implements ContentPreset
 {
     /**

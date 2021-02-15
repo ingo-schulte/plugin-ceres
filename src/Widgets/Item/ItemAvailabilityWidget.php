@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ItemAvailabilityWidget
+ *
+ * Widget class to provide data and settings for the item availability widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class ItemAvailabilityWidget extends BaseWidget
 {
     /** @inheritDoc */

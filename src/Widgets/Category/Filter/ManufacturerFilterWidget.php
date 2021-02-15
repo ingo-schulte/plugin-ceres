@@ -5,6 +5,13 @@ namespace Ceres\Widgets\Category\Filter;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ManufacturerFilterWidget
+ *
+ * Widget class to provide data and settings for the manufacturer filter widget
+ *
+ * @package Ceres\Widgets\Category\Filter
+ */
 class ManufacturerFilterWidget extends FilterBaseWidget
 {
     /** @inheritDoc */

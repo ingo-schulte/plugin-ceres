@@ -8,18 +8,25 @@ use IO\Helper\RouteConfig;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultLoginPreset
+ *
+ * Preset class for the login
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultLoginPreset implements ContentPreset
 {
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
 
-    /** @var PresetHelper */
+    /** @var PresetHelper $twoColumnWidget */
     private $twoColumnWidget;
 
-    /** @var ShopUrls */
+    /** @var ShopUrls $shopUrls */
     private $shopUrls;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
     
     /**

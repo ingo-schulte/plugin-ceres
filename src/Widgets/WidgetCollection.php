@@ -101,15 +101,24 @@ use Ceres\Widgets\OrderConfirmation\OrderReturnWidget;
 use Ceres\Widgets\OrderConfirmation\OrderTotalsWidget;
 use Ceres\Widgets\OrderConfirmation\PurchasedItemsWidget;
 
+/**
+ * Class WidgetCollection
+ *
+ * Provide constants determining which widgets belong to which category
+ *
+ * @package Ceres\Widgets
+ */
 class WidgetCollection
 {
+    /** @var array Widgets in the basket category */
     const BASKET_WIDGETS = [
         BasketTotalsWidget::class,
         BasketWidget::class,
         CouponWidget::class,
         ShippingCountryWidget::class
     ];
-
+    
+    /** @var array Widgets in the checkout category */
     const CHECKOUT_WIDGETS = [
         CancelPaymentWidget::class,
         ContactWishWidget::class,
@@ -121,7 +130,8 @@ class WidgetCollection
         SubscribeNewsletterCheckWidget::class,
         CustomerSignWidget::class
     ];
-
+    
+    /** @var array Widgets in the common category */
     const COMMON_WIDGETS = [
         BackgroundWidget::class,
         CodeWidget::class,
@@ -143,22 +153,26 @@ class WidgetCollection
         TextWidget::class,
         TitleBarWidget::class
     ];
-
+    
+    /** @var array Widgets in the contact category */
     const CONTACT_WIDGETS = [
         ContactDetailsWidget::class
     ];
-
+    
+    /** @var array Widgets in the customer category */
     const CUSTOMER_WIDGETS = [
         AddressWidget::class,
         ChangeMailWidget::class,
         ChangePasswordWidget::class
     ];
-
+    
+    /** @var array Widgets in the footer category */
     const FOOTER_WIDGETS = [
         CookieBarWidget::class,
         LegalInformationWidget::class
     ];
-
+    
+    /** @var array Widgets in the form category */
     const FORM_WIDGETS = [
         AcceptPrivacyPolicyWidget::class,
         MailFormWidget::class,
@@ -167,7 +181,8 @@ class WidgetCollection
         TextAreaWidget::class,
         TextInputWidget::class
     ];
-
+    
+    /** @var array Widgets in the grid category */
     const GRID_WIDGETS = [
         AdditionalInformationWidget::class,
         FourColumnWidget::class,
@@ -176,7 +191,8 @@ class WidgetCollection
         ThreeColumnWidget::class,
         TwoColumnWidget::class
     ];
-
+    
+    /** @var array Widgets in the header category */
     const HEADER_WIDGETS = [
         BreadcrumbWidget::class,
         NavigationWidget::class,
@@ -185,7 +201,8 @@ class WidgetCollection
         SearchSuggestionSuggestionWidget::class,
         TopBarWidget::class
     ];
-
+    
+    /** @var array Widgets in the item category */
     const ITEM_WIDGETS = [
         AddToBasketWidget::class,
         AddToWishListWidget::class,
@@ -200,22 +217,26 @@ class WidgetCollection
         WishListWidget::class,
         TagsWidget::class
     ];
-
+    
+    /** @var array Widgets in the item set category */
     const ITEM_SET_WIDGETS = [
         ItemSetWidget::class,
         QuantityInputWidget::class
     ];
-
+    
+    /** @var array Widgets in the legal category */
     const LEGAL_WIDGETS = [
         LegalTextsWidget::class
     ];
-
+    
+    /** @var array Widgets in the login category */
     const LOGIN_WIDGETS = [
         GuestLoginWidget::class,
         LoginWidget::class,
         RegistrationWidget::class
     ];
-
+    
+    /** @var array Widgets in the my account category */
     const MY_ACCOUNT_WIDGETS = [
         AccountSettingsWidget::class,
         BankDataSelectWidget::class,
@@ -224,7 +245,8 @@ class WidgetCollection
         OrderHistoryWidget::class,
         OrderReturnHistoryWidget::class
     ];
-
+    
+    /** @var array Widgets in the order confirmation category */
     const ORDER_CONFIRMATION_WIDGETS = [
         OrderDataWidget::class,
         OrderDocumentsWidget::class,
@@ -232,7 +254,8 @@ class WidgetCollection
         OrderTotalsWidget::class,
         PurchasedItemsWidget::class
     ];
-
+    
+    /** @var array Widgets in the category item category */
     const CATEGORY_ITEM_WIDGETS = [
         ItemSortingWidget::class,
         ItemsPerPageWidget::class,
@@ -248,7 +271,12 @@ class WidgetCollection
         ManufacturerFilterWidget::class,
         PriceFilterWidget::class
     ];
-
+    
+    /**
+     * Return all existing widget categories
+     *
+     * @return array
+     */
     public static function all()
     {
         return array_merge(

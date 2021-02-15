@@ -15,6 +15,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use Plenty\Modules\Webshop\Contracts\ContactRepositoryContract;
 
+/**
+ * Class NavigationWidget
+ *
+ * Widget class to provide data and settings for the navigation widget
+ *
+ * @package Ceres\Widgets\Header
+ */
 class NavigationWidget extends BaseWidget
 {
     /** @inheritDoc */

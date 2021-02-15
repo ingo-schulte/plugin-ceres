@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class QuantityInputWidget
+ *
+ * Widget class to provide data and settings for the quantity input widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class QuantityInputWidget extends BaseWidget
 {
     /** @inheritDoc */

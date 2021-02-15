@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class LogoutButtonWidget
+ *
+ * Widget class to provide data and settings for the logout button widget
+ *
+ * @package Ceres\Widgets\MyAccount
+ */
 class LogoutButtonWidget extends BaseWidget
 {
     /** @inheritDoc */

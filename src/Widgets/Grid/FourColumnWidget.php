@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class FourColumnWidget
+ *
+ * Widget class to provide data and settings for the four column widget
+ *
+ * @package Ceres\Widgets\Grid
+ */
 class FourColumnWidget extends GridWidget
 {
     /** @inheritDoc */

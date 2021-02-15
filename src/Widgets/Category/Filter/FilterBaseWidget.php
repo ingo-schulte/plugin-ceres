@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\BaseWidget;
 use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use IO\Services\ItemSearch\Factories\Faker\FacetFaker;
 
+/**
+ * Class FilterBaseWidget
+ *
+ * Widget class to provide data and settings for the filter base widget
+ *
+ * @package Ceres\Widgets\Category\Filter
+ */
 class FilterBaseWidget extends BaseWidget
 {
     /** @inheritDoc */

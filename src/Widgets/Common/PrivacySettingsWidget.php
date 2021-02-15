@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class PrivacySettingsWidget
+ *
+ * Widget class to provide data and settings for the privacy settings widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class PrivacySettingsWidget extends BaseWidget
 {
     /** @inheritDoc */

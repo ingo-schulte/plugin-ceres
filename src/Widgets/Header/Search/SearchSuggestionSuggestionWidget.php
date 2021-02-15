@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Header\Search;
 
+/**
+ * Class SearchSuggestionSuggestionWidget
+ *
+ * Widget class to provide data and settings for the search suggestion suggestion widget
+ *
+ * @package Ceres\Widgets\Header\Search
+ */
 class SearchSuggestionSuggestionWidget extends SearchSuggestionBaseWidget
 {
     /** @inheritDoc */

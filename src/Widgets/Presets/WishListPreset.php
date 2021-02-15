@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\PresetHelper;
 use Ceres\Widgets\Presets\Helper\HasWhiteBackground;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class WishListPreset
+ *
+ * Preset class for the wishlist
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class WishListPreset implements ContentPreset
 {
     use HasWhiteBackground;

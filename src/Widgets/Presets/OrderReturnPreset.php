@@ -6,9 +6,16 @@ use Ceres\Widgets\Helper\PresetHelper;
 use Ceres\Widgets\Presets\Helper\HasWhiteBackground;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class OrderReturnPreset
+ *
+ * Preset class for order returns
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class OrderReturnPreset implements ContentPreset
 {
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
 
     use HasWhiteBackground;

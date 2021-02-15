@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class BasketTotalsWidget
+ *
+ * Widget class to provide data and settings for the basket totals widget
+ *
+ * @package Ceres\Widgets\Basket
+ */
 class BasketTotalsWidget extends BaseWidget
 {
     /** @inheritDoc */

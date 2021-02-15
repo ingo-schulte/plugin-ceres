@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultPageNotFoundPreset
+ *
+ * Preset class for page not found
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultPageNotFoundPreset implements ContentPreset
 {
     /**

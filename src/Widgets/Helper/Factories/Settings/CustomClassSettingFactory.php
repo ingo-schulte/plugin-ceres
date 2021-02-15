@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
+/**
+ * Class CustomClassSettingFactory
+ *
+ * Factory class for custom class setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class CustomClassSettingFactory extends BaseSettingFactory
 {
     public function __construct()

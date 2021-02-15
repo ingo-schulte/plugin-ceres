@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class CancelPaymentWidget
+ *
+ * Widget class to provide data and settings for the cancel payment widget
+ *
+ * @package Ceres\Widgets\Checkout
+ */
 class CancelPaymentWidget extends BaseWidget
 {
     /** @inheritDoc */

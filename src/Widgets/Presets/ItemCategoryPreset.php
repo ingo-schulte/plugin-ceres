@@ -7,27 +7,34 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class ItemCategoryPreset
+ *
+ * Preset class for the item category
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class ItemCategoryPreset implements ContentPreset
 {
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
     
-    /** @var bool */
+    /** @var bool $showNavigationTree */
     private $showNavigationTree = false;
     
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $backgroundWidget */
     private $backgroundWidget;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $toolbarWidget */
     private $toolbarWidget;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $threeColumnWidget */
     private $threeColumnWidget;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidget */
     private $twoColumnWidget;
     
     /**

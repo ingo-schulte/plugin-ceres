@@ -13,6 +13,13 @@ use Ceres\Widgets\Helper\WidgetTypes;
 use IO\Services\ItemService;
 use Plenty\Plugin\Http\Request;
 
+/**
+ * Class ItemSortingWidget
+ *
+ * Widget class to provide data and settings for the item sorting widget
+ *
+ * @package Ceres\Widgets\Category
+ */
 class ItemSortingWidget extends BaseWidget
 {
     /** @inheritDoc */

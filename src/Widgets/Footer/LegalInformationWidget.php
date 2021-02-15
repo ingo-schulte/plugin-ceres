@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class LegalInformationWidget
+ *
+ * Widget class to provide data and settings for the legal information widget
+ *
+ * @package Ceres\Widgets\Footer
+ */
 class LegalInformationWidget extends BaseWidget
 {
     /** @inheritDoc */

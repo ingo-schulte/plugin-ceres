@@ -10,15 +10,22 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Application;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultHomepagePreset
+ *
+ * Preset class for the homepage
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultHomepagePreset implements ContentPreset
 {
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
 
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
     
     /**

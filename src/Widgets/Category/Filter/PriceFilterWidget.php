@@ -5,6 +5,13 @@ namespace Ceres\Widgets\Category\Filter;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class PriceFilterWidget
+ *
+ * Widget class to provide data and settings for the price filter widget
+ *
+ * @package Ceres\Widgets\Category\Filter
+ */
 class PriceFilterWidget extends FilterBaseWidget
 {
     /** @inheritDoc */

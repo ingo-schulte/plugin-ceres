@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class PaymentProviderWidget
+ *
+ * Widget class to provide data and settings for the payment provider widget
+ *
+ * @package Ceres\Widgets\Checkout
+ */
 class PaymentProviderWidget extends BaseWidget
 {
     /** @inheritDoc */

@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class WishListWidget
+ *
+ * Widget class to provide data and settings for the wishlist widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class WishListWidget extends BaseWidget
 {
     /** @inheritDoc */

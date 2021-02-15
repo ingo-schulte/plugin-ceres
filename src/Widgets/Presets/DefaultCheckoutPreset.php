@@ -8,14 +8,21 @@ use Ceres\Widgets\Helper\PresetHelper;
 use Ceres\Widgets\Presets\Helper\HasWhiteBackground;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultCheckoutPreset
+ *
+ * Preset class for the checkout
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultCheckoutPreset implements ContentPreset
 {
     use HasWhiteBackground;
 
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
 
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
     
     /**

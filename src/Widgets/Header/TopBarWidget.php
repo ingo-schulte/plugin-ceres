@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class TopBarWidget
+ *
+ * Widget class to provide data and settings for the top bar widget
+ *
+ * @package Ceres\Widgets\Header
+ */
 class TopBarWidget extends BaseWidget
 {
     /** @inheritDoc */

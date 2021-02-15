@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultGTCPreset
+ *
+ * Preset class for the GTC
+ *
+ * @package Ceres\Widgets\Presets\Legal
+ */
 class DefaultGTCPreset implements ContentPreset
 {
     /** @var PresetHelper $preset */

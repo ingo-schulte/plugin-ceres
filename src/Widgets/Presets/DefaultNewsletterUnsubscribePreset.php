@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultNewsletterUnsubscribePreset
+ *
+ * Preset class for newsletter unsubscribe
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultNewsletterUnsubscribePreset implements ContentPreset
 {
     /**

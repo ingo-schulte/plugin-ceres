@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class SearchSuggestionBaseWidget
+ *
+ * Widget class to provide data and settings for the search suggestion base widget
+ *
+ * @package Ceres\Widgets\Header\Search
+ */
 abstract class SearchSuggestionBaseWidget extends BaseWidget
 {
     /** @inheritDoc */

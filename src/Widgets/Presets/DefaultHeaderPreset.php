@@ -8,9 +8,16 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Application;
 
+/**
+ * Class DefaultHeaderPreset
+ *
+ * Preset class for the header
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultHeaderPreset implements ContentPreset
 {
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $topBarWidget */
     private $topBarWidget;
     
     /**

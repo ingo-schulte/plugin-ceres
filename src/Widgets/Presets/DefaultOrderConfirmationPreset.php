@@ -11,29 +11,36 @@ use IO\Helper\RouteConfig;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultOrderConfirmationPreset
+ *
+ * Preset class for the order confirmation
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultOrderConfirmationPreset implements ContentPreset
 {
     use HasWhiteBackground;
 
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
     
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
 
-    /** @var ShopUrls */
+    /** @var ShopUrls $shopUrls */
     private $shopUrls;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidget */
     private $twoColumnWidget;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $threeColumnWidget*/
     private $threeColumnWidget;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $fourColumnWidget */
     private $fourColumnWidget;
     
     /**

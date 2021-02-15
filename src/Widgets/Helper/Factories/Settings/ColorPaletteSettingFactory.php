@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
+/**
+ * Class ColorPaletteSettingFactory
+ *
+ * Factory class for color palette setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class ColorPaletteSettingFactory extends BaseSettingFactory
 {
     public function __construct()

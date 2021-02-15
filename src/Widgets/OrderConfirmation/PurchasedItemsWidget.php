@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use Ceres\Widgets\OrderConfirmation\OrderConfirmationBaseWidget;
 
+/**
+ * Class PurchasedItemsWidget
+ *
+ * Widget class to provide data and settings for the purchased items widget
+ *
+ * @package Ceres\Widgets\OrderConfirmation
+ */
 class PurchasedItemsWidget extends OrderConfirmationBaseWidget
 {
     /** @inheritDoc */

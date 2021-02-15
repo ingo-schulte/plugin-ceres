@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class TextWidget
+ *
+ * Widget class to provide data and settings for the text widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class TextWidget extends BaseWidget
 {
     /** @inheritDoc */

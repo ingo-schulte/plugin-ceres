@@ -5,14 +5,22 @@ namespace Ceres\Widgets\Presets\Helper;
 use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 
+/**
+ * Trait HasWhiteBackground
+ *
+ * Helper trait to create a background widget
+ *
+ * @package Ceres\Widgets\Presets\Helper
+ */
 trait HasWhiteBackground
 {
     /** @var PresetWidgetFactory */
     protected $backgroundWidget;
 
     /**
-     * @param PresetHelper $preset
+     * Create the background widget
      *
+     * @param PresetHelper $preset
      * @return PresetWidgetFactory
      */
     public function createBackground($preset)
@@ -24,6 +32,8 @@ trait HasWhiteBackground
     }
 
     /**
+     * Set the settings of the background widget
+     *
      * @param PresetWidgetFactory $widget
      * @return PresetWidgetFactory
      */
@@ -49,8 +59,9 @@ trait HasWhiteBackground
     }
 
     /**
-     * @param string $identifier
+     * Create a widget inside the background widget
      *
+     * @param string $identifier
      * @return PresetWidgetFactory
      */
     public function createWidget($identifier)

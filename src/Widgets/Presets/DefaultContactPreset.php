@@ -9,14 +9,21 @@ use Ceres\Widgets\Presets\Helper\HasWhiteBackground;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultContactPreset
+ *
+ * Preset class for contact
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultContactPreset implements ContentPreset
 {
     use HasWhiteBackground;
 
-    /** @var CeresConfig */
+    /** @var CeresConfig $config */
     private $config;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
     
     /**

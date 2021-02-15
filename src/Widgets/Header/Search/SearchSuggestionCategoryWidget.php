@@ -1,8 +1,14 @@
 <?php
 
-
 namespace Ceres\Widgets\Header\Search;
 
+/**
+ * Class SearchSuggestionCategoryWidget
+ *
+ * Widget class to provide data and settings for the search suggestion category widget
+ *
+ * @package Ceres\Widgets\Header\Search
+ */
 class SearchSuggestionCategoryWidget extends SearchSuggestionBaseWidget
 {
     /** @inheritDoc */

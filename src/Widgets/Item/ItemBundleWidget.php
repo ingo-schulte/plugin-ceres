@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ItemBundleWidget
+ *
+ * Widget class to provide data and settings for the item bundle widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class ItemBundleWidget extends BaseWidget
 {
     /** @inheritDoc */

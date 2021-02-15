@@ -9,27 +9,34 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 use IO\Extensions\Functions\UniqueId;
 
+/**
+ * Class DefaultSingleItemPreset
+ *
+ * Preset class for the single item
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultSingleItemPreset implements ContentPreset
 {
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
 
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidget */
     private $twoColumnWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $secondTwoColumnWidget */
     private $secondTwoColumnWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $stickyContainer */
     private $stickyContainer;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $tabWidget */
     private $tabWidget;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
     
     /**

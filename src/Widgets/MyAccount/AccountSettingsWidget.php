@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class AccountSettingsWidget
+ *
+ * Widget class to provide data and settings for the account settings widget
+ *
+ * @package Ceres\Widgets\MyAccount
+ */
 class AccountSettingsWidget extends BaseWidget
 {
     /** @inheritDoc */

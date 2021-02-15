@@ -10,6 +10,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class OrderReturnHistoryWidget
+ *
+ * Widget class to provide data and settings for the order return history widget
+ *
+ * @package Ceres\Widgets\MyAccount
+ */
 class OrderReturnHistoryWidget extends BaseWidget
 {
     /** @inheritDoc */

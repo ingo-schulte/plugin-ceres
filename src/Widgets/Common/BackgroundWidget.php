@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class BackgroundWidget
+ *
+ * Widget class to provide data and settings for the background widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class BackgroundWidget extends BaseWidget
 {
     /** @inheritDoc */

@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class RegistrationPreset
+ *
+ * Preset class for the registration
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class RegistrationPreset implements ContentPreset
 {
     /**

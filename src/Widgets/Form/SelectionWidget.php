@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class SelectionWidget
+ *
+ * Widget class to provide data and settings for the selection widget
+ *
+ * @package Ceres\Widgets\Form
+ */
 class SelectionWidget extends BaseWidget
 {
     /** @inheritDoc */

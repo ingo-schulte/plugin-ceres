@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ContactDetailsWidget
+ *
+ * Widget class to provide data and settings for the contact details widget
+ *
+ * @package Ceres\Widgets\Contact
+ */
 class ContactDetailsWidget extends BaseWidget
 {
     /** @inheritDoc */

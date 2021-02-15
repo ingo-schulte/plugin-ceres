@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultLegalDisclosurePreset
+ *
+ * Preset class for the legal disclosure
+ *
+ * @package Ceres\Widgets\Presets\Legal
+ */
 class DefaultLegalDisclosurePreset implements ContentPreset
 {
     /** @var PresetHelper $preset */

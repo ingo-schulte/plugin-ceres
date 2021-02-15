@@ -4,12 +4,21 @@ namespace Ceres\Widgets\Helper;
 
 use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 
+/**
+ * Class PresetHelper
+ *
+ * Helper class to create widgets out of a preset
+ *
+ * @package Ceres\Widgets\Helper
+ */
 class PresetHelper
 {
+    /** @var array $widgetFactories A collection of all widget factories */
     private $widgetFactories = [];
     
     /**
      * @param string $identifier The identifier of the widget to create
+     *
      * @return PresetWidgetFactory
      */
     public function createWidget($identifier)
@@ -22,7 +31,8 @@ class PresetHelper
     }
     
     /**
-     * Return the widget factory as an array
+     * Return the widget factory as an array.
+     *
      * @return array
      */
     public function toArray()

@@ -10,6 +10,13 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Modules\Category\Models\Category;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class DefaultFooterPreset
+ *
+ * Preset class for the footer
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultFooterPreset implements ContentPreset
 {
     /** @var PresetHelper $preset */
@@ -27,6 +34,7 @@ class DefaultFooterPreset implements ContentPreset
     /** @var Translator $translator */
     private $translator;
 
+    /** @var array $gridDropzoneNames */
     private $gridDropzoneNames = [
         1 => 'first',
         2 => 'second',

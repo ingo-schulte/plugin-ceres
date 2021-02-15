@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class AttributeWidget
+ *
+ * Widget class to provide data and settings for the attribute widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class AttributeWidget extends BaseWidget
 {
     /** @inheritDoc */

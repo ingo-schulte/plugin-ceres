@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class BankDataSelectWidget
+ *
+ * Widget class to provide data and settings for the bank data select widget
+ *
+ * @package Ceres\Widgets\MyAccount
+ */
 class BankDataSelectWidget extends BaseWidget
 {
     /** @inheritDoc */

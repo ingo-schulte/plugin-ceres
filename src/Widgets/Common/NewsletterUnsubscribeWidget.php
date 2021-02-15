@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class NewsletterUnsubscribeWidget
+ *
+ * Widget class to provide data and settings for the newsletter unsubscribe widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class NewsletterUnsubscribeWidget extends BaseWidget
 {
     /** @inheritDoc */

@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultCancellationRightsPreset
+ *
+ * Preset class for the cancellation rights
+ *
+ * @package Ceres\Widgets\Presets\Legal
+ */
 class DefaultCancellationRightsPreset implements ContentPreset
 {
     /** @var PresetHelper $preset */

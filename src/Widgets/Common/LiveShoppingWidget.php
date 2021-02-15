@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class LiveShoppingWidget
+ *
+ * Widget class to provide data and settings for the live shopping widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class LiveShoppingWidget extends BaseWidget
 {
     /** @inheritDoc */

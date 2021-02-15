@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ContactWishWidget
+ *
+ * Widget class to provide data and settings for the contact wish widget
+ *
+ * @package Ceres\Widgets\Checkout
+ */
 class ContactWishWidget extends BaseWidget
 {
     /** @inheritDoc */

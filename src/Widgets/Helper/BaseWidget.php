@@ -7,6 +7,13 @@ use Plenty\Plugin\Application;
 use Plenty\Plugin\Templates\Twig;
 use Plenty\Plugin\Log\Loggable;
 
+/**
+ * Class BaseWidget
+ *
+ * Widget class to provide data and settings for the base widget
+ *
+ * @package Ceres\Widgets\Helper
+ */
 class BaseWidget implements DynamicWidget
 {
     use Loggable;

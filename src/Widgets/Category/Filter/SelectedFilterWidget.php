@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class SelectedFilterWidget
+ *
+ * Widget class to provide data and settings for the selected filter widget
+ *
+ * @package Ceres\Widgets\Category\Filter
+ */
 class SelectedFilterWidget extends BaseWidget
 {
     /** @inheritDoc */

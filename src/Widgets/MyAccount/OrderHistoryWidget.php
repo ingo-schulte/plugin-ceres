@@ -14,6 +14,13 @@ use Plenty\Modules\Authorization\Services\AuthHelper;
 use Plenty\Modules\Order\Status\Contracts\OrderStatusRepositoryContract;
 use Plenty\Modules\Order\Status\Models\OrderStatus;
 
+/**
+ * Class OrderHistoryWidget
+ *
+ * Widget class to provide data and settings for the order history widget
+ *
+ * @package Ceres\Widgets\MyAccount
+ */
 class OrderHistoryWidget extends BaseWidget
 {
     /** @var Collection $statuses A collection of all order statuses */

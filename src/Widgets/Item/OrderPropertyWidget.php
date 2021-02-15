@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class OrderPropertyWidget
+ *
+ * Widget class to provide data and settings for the order property widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class OrderPropertyWidget extends BaseWidget
 {
     /** @inheritDoc */

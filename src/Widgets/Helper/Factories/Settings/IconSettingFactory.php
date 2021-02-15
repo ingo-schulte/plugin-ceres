@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
+/**
+ * Class IconSettingFactory
+ *
+ * Factory class for icon setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class IconSettingFactory extends BaseSettingFactory
 {
     public function __construct()

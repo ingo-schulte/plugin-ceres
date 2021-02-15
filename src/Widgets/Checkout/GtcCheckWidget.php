@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class GtcCheckWidget
+ *
+ * Widget class to provide data and settings for the gtc check widget
+ *
+ * @package Ceres\Widgets\Checkout
+ */
 class GtcCheckWidget extends BaseWidget
 {
     /** @inheritDoc */

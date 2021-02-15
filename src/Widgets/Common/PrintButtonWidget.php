@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class PrintButtonWidget
+ *
+ * Widget class to provide data and settings for the print button widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class PrintButtonWidget extends BaseWidget
 {
     /** @inheritDoc */

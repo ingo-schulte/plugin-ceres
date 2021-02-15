@@ -2,8 +2,16 @@
 
 namespace Ceres\Widgets\Helper\Factories;
 
+/**
+ * Class WidgetDataFactory
+ *
+ * Factory class for widget data.
+ *
+ * @package Ceres\Widgets\Helper\Factories
+ */
 class WidgetDataFactory
 {
+    /** @var array The data of the factory. */
     private $data = [];
 
     /**
@@ -47,7 +55,8 @@ class WidgetDataFactory
     }
 
     /**
-     * Set the type of the widget. @see WidgetTypes
+     * Set the type of the widget.
+     * @see WidgetTypes
      *
      * @param string $type  Type of the widget
      * @return $this

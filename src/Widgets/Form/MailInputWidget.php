@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class MailInputWidget
+ *
+ * Widget class to provide data and settings for the mail input widget
+ *
+ * @package Ceres\Widgets\Form
+ */
 class MailInputWidget extends BaseWidget
 {
     /** @inheritDoc */

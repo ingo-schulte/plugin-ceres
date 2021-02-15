@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class OrderTotalsWidget
+ *
+ * Widget class to provide data and settings for the order totals widget
+ *
+ * @package Ceres\Widgets\OrderConfirmation
+ */
 class OrderTotalsWidget extends OrderConfirmationBaseWidget
 {
     /** @inheritDoc */

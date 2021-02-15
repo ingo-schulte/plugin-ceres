@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
+/**
+ * Class CheckboxGroupSettingFactory
+ *
+ * Factory class for checkbox group setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class CheckboxGroupSettingFactory extends BaseSettingFactory
 {
     public function __construct()
@@ -10,6 +17,8 @@ class CheckboxGroupSettingFactory extends BaseSettingFactory
     }
 
     /**
+     * Set a collapsed checkbox
+     *
      * @param boolean $collapsed
      * @return CheckboxGroupSettingFactory
      */
@@ -19,6 +28,8 @@ class CheckboxGroupSettingFactory extends BaseSettingFactory
     }
 
     /**
+     * Set the values of the checkbox
+     *
      * @param array $checkboxValues
      * @return CheckboxGroupSettingFactory
      */
@@ -28,6 +39,8 @@ class CheckboxGroupSettingFactory extends BaseSettingFactory
     }
 
     /**
+     * Set the default value
+     *
      * @param array $defaultValue
      * @return $this
      */

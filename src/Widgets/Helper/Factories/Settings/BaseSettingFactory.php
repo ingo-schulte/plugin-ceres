@@ -12,8 +12,15 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
  */
 class BaseSettingFactory
 {
+    /** @var array $data contains the widget settings data */
     protected $data = [];
-
+    
+    /**
+     * Create a new instance of a base settings factory.
+     *
+     * @param array $data
+     * @return BaseSettingFactory
+     */
     public static function create($data = [])
     {
         /** @var BaseSettingFactory $instance */
@@ -25,7 +32,7 @@ class BaseSettingFactory
     /**
      * Set the type of the setting.
      *
-     * @param string    $type
+     * @param string $type
      * @return $this
      */
     public function withType($type)
@@ -37,8 +44,8 @@ class BaseSettingFactory
     /**
      * Set an option for the setting.
      *
-     * @param string    $key        The option key
-     * @param mixed     $value      The option value
+     * @param string $key The option key
+     * @param mixed $value The option value
      * @return $this
      */
     public function withOption($key, $value)
@@ -51,7 +58,7 @@ class BaseSettingFactory
     /**
      * Set the default value for the setting.
      *
-     * @param array|mixed    $defaultValue   The default value
+     * @param array|mixed $defaultValue The default value
      * @return $this
      */
     public function withDefaultValue($defaultValue)
@@ -63,7 +70,7 @@ class BaseSettingFactory
     /**
      * Set a condition if the setting should be visible or not.
      *
-     * @param string    $condition  Condition if the related form element should be visible or not.
+     * @param string $condition Condition if the related form element should be visible or not.
      * @return $this
      */
     public function withCondition($condition)
@@ -75,7 +82,7 @@ class BaseSettingFactory
     /**
      * Set the name of the setting.
      *
-     * @param string $name  The label of the setting
+     * @param string $name The label of the setting
      * @return $this
      */
     public function withName($name)
@@ -86,7 +93,7 @@ class BaseSettingFactory
     /**
      * Set a tooltip text for this input
      *
-     * @param string $tooltip   An additional description of the setting
+     * @param string $tooltip An additional description of the setting
      * @return $this
      */
     public function withTooltip($tooltip)
@@ -97,8 +104,8 @@ class BaseSettingFactory
     /**
      * Determines whether the declaration is used to render a list of the specified form field.
      *
-     * @param int $min  Minimum number of entries.
-     * @param int $max  Maximum number of entries. If not set or smaller than 0, unlimited entries might be added by the user.
+     * @param int $min Minimum number of entries.
+     * @param int $max Maximum number of entries. If not set or smaller than 0, unlimited entries might be added by the user.
      * @return $this
      */
     public function withList($min = 0, $max = 0)

@@ -8,6 +8,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class CustomerSignWidget
+ *
+ * Widget class to provide data and settings for the customer sign widget
+ *
+ * @package Ceres\Widgets\Checkout
+ */
 class CustomerSignWidget extends BaseWidget
 {
     /** @inheritDoc */

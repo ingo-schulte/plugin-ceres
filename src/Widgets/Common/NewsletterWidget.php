@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class NewsletterWidget
+ *
+ * Widget class to provide data and settings for the newsletter widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class NewsletterWidget extends BaseWidget
 {
     /** @inheritDoc */

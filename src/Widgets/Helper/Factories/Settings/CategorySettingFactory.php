@@ -1,9 +1,14 @@
 <?php
 
-
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
-
+/**
+ * Class CategorySettingFactory
+ *
+ * Factory class for category setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class CategorySettingFactory extends BaseSettingFactory
 {
     public function __construct()
@@ -12,7 +17,9 @@ class CategorySettingFactory extends BaseSettingFactory
     }
 
     /**
-     * @param boolean $displayResetButton
+     * Set if the reset button should be displayed
+     *
+     * @param bool $displayResetButton
      * @return CategorySettingFactory
      */
     public function withDisplayResetButton($displayResetButton)
@@ -21,7 +28,9 @@ class CategorySettingFactory extends BaseSettingFactory
     }
 
     /**
-     * @param boolean $displaySearch
+     * Set if the search box should be displayed
+     *
+     * @param bool $displaySearch
      * @return CategorySettingFactory
      */
     public function withDisplaySearch($displaySearch)
@@ -30,7 +39,9 @@ class CategorySettingFactory extends BaseSettingFactory
     }
 
     /**
-     * @param boolean $showFullSelectionPath
+     * Set if the full path of the selected category should be displayed
+     *
+     * @param bool $showFullSelectionPath
      * @return CategorySettingFactory
      */
     public function withShowFullSelectionPath($showFullSelectionPath)

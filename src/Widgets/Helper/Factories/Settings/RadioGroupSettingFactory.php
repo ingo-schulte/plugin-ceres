@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
+/**
+ * Class RadioGroupSettingFactory
+ *
+ * Factory class for radio group setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class RadioGroupSettingFactory extends BaseSettingFactory
 {
     public function __construct()
@@ -10,6 +17,8 @@ class RadioGroupSettingFactory extends BaseSettingFactory
     }
 
     /**
+     * Set the values of the radios
+     *
      * @param array $radioValues
      * @return RadioGroupSettingFactory
      */

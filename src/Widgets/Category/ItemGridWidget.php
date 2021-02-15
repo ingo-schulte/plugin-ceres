@@ -10,6 +10,13 @@ use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use IO\Services\ItemListService;
 
+/**
+ * Class ItemGridWidget
+ *
+ * Widget class to provide data and settings for the item grid widget
+ *
+ * @package Ceres\Widgets\Category
+ */
 class ItemGridWidget extends BaseWidget
 {
     /** @inheritDoc */

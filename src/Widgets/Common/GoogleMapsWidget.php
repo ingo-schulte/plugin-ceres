@@ -10,6 +10,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use Plenty\Plugin\Log\Loggable;
 
+/**
+ * Class GoogleMapsWidget
+ *
+ * Widget class to provide data and settings for the google maps widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class GoogleMapsWidget extends BaseWidget
 {
     use Loggable;

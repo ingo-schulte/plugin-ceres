@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 use IO\Services\ItemListService;
 
+/**
+ * Class ItemSetWidget
+ *
+ * Widget class to provide data and settings for the item set widget
+ *
+ * @package Ceres\Widgets\Item
+ */
 class ItemSetWidget extends BaseWidget
 {
     /** @inheritDoc */

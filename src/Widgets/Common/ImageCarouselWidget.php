@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ImageCarouselWidget
+ *
+ * Widget class to provide data and settings for the Image carousel widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class ImageCarouselWidget extends BaseWidget
 {
     /** @inheritDoc */

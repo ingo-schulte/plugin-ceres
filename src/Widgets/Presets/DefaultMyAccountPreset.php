@@ -8,23 +8,30 @@ use Ceres\Widgets\Helper\PresetHelper;
 use Ceres\Widgets\Presets\Helper\HasWhiteBackground;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 
+/**
+ * Class DefaultMyAccountPreset
+ *
+ * Preset class for the my account
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class DefaultMyAccountPreset implements ContentPreset
 {
     use HasWhiteBackground;
 
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
     
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidgetTop */
     private $twoColumnWidgetTop;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidgetAddresses */
     private $twoColumnWidgetAddresses;
     
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidgetAccountSettings */
     private $twoColumnWidgetAccountSettings;
     
     /**

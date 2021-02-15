@@ -8,33 +8,40 @@ use Ceres\Widgets\Helper\PresetHelper;
 use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 use Plenty\Plugin\Translation\Translator;
 
+/**
+ * Class ItemSetPreset
+ *
+ * Preset class for the item set
+ *
+ * @package Ceres\Widgets\Presets
+ */
 class ItemSetPreset implements ContentPreset
 {
-    /** @var PresetHelper */
+    /** @var PresetHelper $preset */
     private $preset;
 
-    /** @var CeresConfig */
+    /** @var CeresConfig $ceresConfig */
     private $ceresConfig;
 
-    /** @var Translator */
+    /** @var Translator $translator */
     private $translator;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $twoColumnWidget */
     private $twoColumnWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $secondTwoColumnWidget */
     private $secondTwoColumnWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $setItemBackgroundWidget */
     private $setItemBackgroundWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $setComponentWidget */
     private $setComponentWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $setComponentThreeColumnWidget */
     private $setComponentThreeColumnWidget;
 
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory $setComponentBackgroundWidget */
     private $setComponentBackgroundWidget;
     
     /**

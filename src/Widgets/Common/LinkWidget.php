@@ -9,6 +9,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class LinkWidget
+ *
+ * Widget class to provide data and settings for the link widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class LinkWidget extends BaseWidget
 {
     /** @inheritDoc */

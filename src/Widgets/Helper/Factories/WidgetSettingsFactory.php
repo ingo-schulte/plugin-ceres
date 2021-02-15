@@ -30,9 +30,19 @@ use Ceres\Widgets\Helper\Factories\Settings\UUIDSettingFactory;
 use Ceres\Widgets\Helper\Factories\Settings\UrlSettingFactory;
 use Plenty\Modules\ShopBuilder\Contracts\DynamicWidget;
 
+/**
+ * Class WidgetSettingsFactory
+ *
+ * Factory class for widget settings.
+ *
+ * @package Ceres\Widgets\Helper\Factories
+ */
 class WidgetSettingsFactory
 {
+    /** @var array All settings of the factory. */
     private $settings = [];
+    
+    /** @var null $pointer A pointer which indicates where in the object the setting is added */
     private $pointer = null;
 
     /**
@@ -214,6 +224,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a number input setting
+     *
      * @param string $key
      * @return BaseSettingFactory
      */
@@ -282,6 +294,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * create a color setting
+     *
      * @param string $key
      * @return BaseSettingFactory
      */
@@ -350,6 +364,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a note editor setting
+     *
      * @param string $key
      * @return EditorSettingFactory
      */
@@ -363,6 +379,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a code editor setting
+     *
      * @param string $key
      * @return EditorSettingFactory
      */
@@ -404,6 +422,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a custom class setting
+     *
      * @return CustomClassSettingFactory
      */
     public function createCustomClass()
@@ -415,6 +435,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create an Appearance setting
+     *
      * @param $optional
      * @return AppearanceSettingFactory
      */
@@ -427,6 +449,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create an icon setting
+     *
      * @return IconSettingFactory
      */
     public function createIcon()
@@ -438,6 +462,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a spacing setting
+     *
      * @param $usePadding
      * @param $useMargin
      * @return SpacingSettingFactory
@@ -451,6 +477,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a height setting
+     *
      * @return HeightSettingFactory
      */
     public function createHeight()
@@ -463,6 +491,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create a button size setting
+     *
      * @return ButtonSizeSettingFactory
      */
     public function createButtonSize()
@@ -474,6 +504,8 @@ class WidgetSettingsFactory
     }
 
     /**
+     * Create an alignment setting
+     *
      * @return AlignmentSettingFactory
      */
     public function createAlignment()
@@ -483,7 +515,12 @@ class WidgetSettingsFactory
         $this->addSetting('alignment', $setting);
         return $setting;
     }
-
+    
+    /**
+     * Return the settings factory as an array
+     *
+     * @return array
+     */
     public function toArray()
     {
         $result = [];

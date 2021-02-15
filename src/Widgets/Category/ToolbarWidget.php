@@ -7,6 +7,13 @@ use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class ToolbarWidget
+ *
+ * Widget class to provide data and settings for the toolbar widget
+ *
+ * @package Ceres\Widgets\Category
+ */
 class ToolbarWidget extends BaseWidget
 {
     /** @inheritDoc */

@@ -5,6 +5,13 @@ namespace Ceres\Widgets\Category\Filter;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class AttributesPropertiesCharacteristicsFilterWidget
+ *
+ * Widget class to provide data and settings for the attributes, properties and characteristics filter widget
+ *
+ * @package Ceres\Widgets\Category\Filter
+ */
 class AttributesPropertiesCharacteristicsFilterWidget extends FilterBaseWidget
 {
     /** @inheritDoc */

@@ -6,6 +6,13 @@ use Ceres\Widgets\Helper\WidgetCategories;
 use Ceres\Widgets\Helper\Factories\WidgetDataFactory;
 use Ceres\Widgets\Helper\WidgetTypes;
 
+/**
+ * Class LinkListWidget
+ *
+ * Widget class to provide data and settings for the link list widget
+ *
+ * @package Ceres\Widgets\Common
+ */
 class LinkListWidget extends ListWidget
 {
     /**

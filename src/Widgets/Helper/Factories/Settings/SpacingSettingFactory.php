@@ -2,6 +2,13 @@
 
 namespace Ceres\Widgets\Helper\Factories\Settings;
 
+/**
+ * Class SpacingSettingFactory
+ *
+ * Factory class for spacing setting
+ *
+ * @package Ceres\Widgets\Helper\Factories\Settings
+ */
 class SpacingSettingFactory extends ContainerSettingFactory
 {
     public function __construct($usePadding, $useMargin)

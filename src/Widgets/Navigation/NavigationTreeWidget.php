@@ -12,6 +12,13 @@ use IO\Services\CategoryService;
 use IO\Services\ItemSearch\Factories\Faker\CategoryTreeFaker;
 use Plenty\Modules\Webshop\Contracts\ContactRepositoryContract;
 
+/**
+ * Class NavigationTreeWidget
+ *
+ * Widget class to provide data and settings for the navigation tree widget
+ *
+ * @package Ceres\Widgets\Navigation
+ */
 class NavigationTreeWidget extends BaseWidget
 {
     /** @inheritDoc */
