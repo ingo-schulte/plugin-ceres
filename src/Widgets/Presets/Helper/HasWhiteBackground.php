@@ -14,7 +14,7 @@ use Ceres\Widgets\Helper\PresetHelper;
  */
 trait HasWhiteBackground
 {
-    /** @var PresetWidgetFactory */
+    /** @var PresetWidgetFactory The background widget to be created */
     protected $backgroundWidget;
 
     /**
