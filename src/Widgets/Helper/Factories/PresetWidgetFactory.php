@@ -17,7 +17,7 @@ class PresetWidgetFactory
     /** @var array $settings The settings of the preset. */
     public $settings = [];
 
-    /** @var array $children Child instances of preset widget factories */
+    /** @var array $children Child instances of preset widget factories. */
     public $children = [];
 
     /**
@@ -46,7 +46,7 @@ class PresetWidgetFactory
     /**
      * Create a child widget.
      *
-     * @param string $dropzone The dropzone to put the widget into
+     * @param string $dropzone The dropzone to put the widget into.
      * @param string $identifier Unique identifier of the child widget.
      * @return PresetWidgetFactory
      */

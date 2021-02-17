@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class ChangePasswordPreset
  *
- * Preset class for change password
+ * Preset class for change password.
  *
  * @package Ceres\Widgets\Presets
  */

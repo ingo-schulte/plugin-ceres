@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class FourColumnWidget
  *
- * Widget class to provide data and settings for the four column widget
+ * Widget class to provide data and settings for the four column grid widget.
  *
  * @package Ceres\Widgets\Grid
  */

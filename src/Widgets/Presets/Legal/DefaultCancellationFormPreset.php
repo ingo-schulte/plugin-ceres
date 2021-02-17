@@ -8,7 +8,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultCancellationFormPreset
  *
- * Preset class for the cancellation form
+ * Preset class for the cancellation form.
  *
  * @package Ceres\Widgets\Presets\Legal
  */

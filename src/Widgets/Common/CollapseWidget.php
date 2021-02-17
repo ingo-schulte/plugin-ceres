@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CollapseWidget
  *
- * Widget class to provide data and settings for the collapse widget
+ * Widget class to provide data and settings for the collapse widget.
  *
  * @package Ceres\Widgets\Common
  */

@@ -13,7 +13,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultFooterPreset
  *
- * Preset class for the footer
+ * Preset class for the footer.
  *
  * @package Ceres\Widgets\Presets
  */

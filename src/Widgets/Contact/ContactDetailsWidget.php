@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ContactDetailsWidget
  *
- * Widget class to provide data and settings for the contact details widget
+ * Widget class to provide data and settings for the contact details widget.
  *
  * @package Ceres\Widgets\Contact
  */

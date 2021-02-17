@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class AlignmentSettingFactory
  *
- * Factory class for alignment setting
+ * Factory class for alignment setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class UrlSettingFactory
  *
- * Factory class for url setting
+ * Factory class for URL setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class UrlSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Allow internal links
+     * Allow internal links.
      *
      * @param array $internalLinks
      * @return UrlSettingFactory

@@ -13,7 +13,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultBasketPreset
  *
- * Preset class for the basket
+ * Preset class for the shopping cart.
  *
  * @package Ceres\Widgets\Presets
  */

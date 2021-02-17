@@ -10,7 +10,7 @@ use Plenty\Plugin\Log\Loggable;
 /**
  * Class BaseWidget
  *
- * Widget class to provide data and settings for the base widget
+ * Widget class to provide data and settings for the base widget.
  *
  * @package Ceres\Widgets\Helper
  */
@@ -18,14 +18,14 @@ class BaseWidget implements DynamicWidget
 {
     use Loggable;
 
-    /** @var array The available toolbar layouts */
+    /** @var array The available toolbar layouts. */
     const TOOLBAR_LAYOUT = [
         "NONE"   => "",
         "INLINE" => "bold,italic,underline,strike|h1,h2,h3|align|translation",
         "ALL"    => "bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation"
     ];
 
-    /** @var array A map for types to corresponding templates */
+    /** @var array A map for types to corresponding templates. */
     public static $mapTypeToTemplate = [
         'itemset'       => 'tpl.item',
         'singleitem'    => 'tpl.item',
@@ -34,7 +34,7 @@ class BaseWidget implements DynamicWidget
         'checkout'      => 'tpl.checkout'
     ];
 
-    /** @var string $template The template to be used for this widget */
+    /** @var string $template The template to be used for this widget. */
     protected $template = "";
 
     /** @var Twig $twig */
@@ -106,7 +106,7 @@ class BaseWidget implements DynamicWidget
 
     /**
      * Render the template of the widget.
-     * Returns a twig-template which will be included in the frontend
+     * Returns a twig template which will be included in the frontend
      * or rendered again for generating the preview.
      *
      * @param array $widgetSettings The settings provided by the widget.

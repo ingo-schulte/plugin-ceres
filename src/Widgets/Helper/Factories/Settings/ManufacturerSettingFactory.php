@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class ManufacturerSettingFactory
  *
- * Factory class for manufacturer setting
+ * Factory class for manufacturer setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

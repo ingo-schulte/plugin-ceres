@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class NewsletterUnsubscribeWidget
  *
- * Widget class to provide data and settings for the newsletter unsubscribe widget
+ * Widget class to provide data and settings for the newsletter unsubscribe. widget
  *
  * @package Ceres\Widgets\Common
  */

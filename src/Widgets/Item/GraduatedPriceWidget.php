@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class GraduatedPriceWidget
  *
- * Widget class to provide data and settings for the graduaded price widget
+ * Widget class to provide data and settings for the graduaded price widget.
  *
  * @package Ceres\Widgets\Item
  */

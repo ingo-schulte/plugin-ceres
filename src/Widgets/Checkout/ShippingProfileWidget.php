@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ShippingProfileWidget
  *
- * Widget class to provide data and settings for the shipping profile widget
+ * Widget class to provide data and settings for the shipping profile selection widget.
  *
  * @package Ceres\Widgets\Checkout
  */

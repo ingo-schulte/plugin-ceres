@@ -13,7 +13,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemListWidget
  *
- * Widget class to provide data and settings for the item list widget
+ * Widget class to provide data and settings for the item list widget.
  *
  * @package Ceres\Widgets\Common
  */

@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class WishListPreset
  *
- * Preset class for the wishlist
+ * Preset class for the wishlist.
  *
  * @package Ceres\Widgets\Presets
  */

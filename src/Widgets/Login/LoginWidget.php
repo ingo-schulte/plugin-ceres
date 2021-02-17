@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class LoginWidget
  *
- * Widget class to provide data and settings for the login widget
+ * Widget class to provide data and settings for the login widget.
  *
  * @package Ceres\Widgets\Login
  */

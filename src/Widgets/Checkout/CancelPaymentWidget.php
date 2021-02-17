@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CancelPaymentWidget
  *
- * Widget class to provide data and settings for the cancel payment widget
+ * Widget class to provide data and settings for the cancel payment widget.
  *
  * @package Ceres\Widgets\Checkout
  */

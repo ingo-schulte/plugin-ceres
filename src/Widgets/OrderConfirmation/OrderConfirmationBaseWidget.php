@@ -8,7 +8,7 @@ use IO\Services\Order\Factories\OrderResultFactory;
 /**
  * Class OrderConfirmationBaseWidget
  *
- * Widget class to provide data and settings for the order confirmation base widget
+ * Widget class to provide data and settings for the order confirmation base widget.
  *
  * @package Ceres\Widgets\OrderConfirmation
  */

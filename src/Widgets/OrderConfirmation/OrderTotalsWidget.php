@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class OrderTotalsWidget
  *
- * Widget class to provide data and settings for the order totals widget
+ * Widget class to provide data and settings for the order totals widget.
  *
  * @package Ceres\Widgets\OrderConfirmation
  */

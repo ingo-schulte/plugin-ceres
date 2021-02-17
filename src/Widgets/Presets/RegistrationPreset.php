@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class RegistrationPreset
  *
- * Preset class for the registration
+ * Preset class for the registration page.
  *
  * @package Ceres\Widgets\Presets
  */

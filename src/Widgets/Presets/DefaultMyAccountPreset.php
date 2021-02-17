@@ -11,7 +11,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultMyAccountPreset
  *
- * Preset class for the my account
+ * Preset class for the my account.
  *
  * @package Ceres\Widgets\Presets
  */

@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class ColorPaletteSettingFactory
  *
- * Factory class for color palette setting
+ * Factory class for color palette setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

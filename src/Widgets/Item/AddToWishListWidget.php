@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AddToWishListWidget
  *
- * Widget class to provide data and settings for the add to wishlist widget
+ * Widget class to provide data and settings for the add to wishlist widget.
  *
  * @package Ceres\Widgets\Item
  */

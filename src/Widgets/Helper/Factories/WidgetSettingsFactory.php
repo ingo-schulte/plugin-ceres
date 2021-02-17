@@ -42,7 +42,7 @@ class WidgetSettingsFactory
     /** @var array All settings of the factory. */
     private $settings = [];
     
-    /** @var null $pointer A pointer which indicates where in the object the setting is added */
+    /** @var null $pointer A pointer which indicates where in the object the setting is added. */
     private $pointer = null;
 
     /**
@@ -111,7 +111,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a vertical container
+     * Create a vertical container.
      *
      * @param string $key
      * @return ContainerSettingFactory
@@ -126,7 +126,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a horizontal container
+     * Create a horizontal container.
      *
      * @param string $key
      * @return ContainerSettingFactory
@@ -141,7 +141,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a text input setting
+     * Create a text input setting.
      *
      * @param string $key
      * @return TextSettingFactory
@@ -155,7 +155,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a checkbox setting
+     * Create a checkbox setting.
      *
      * @param string $key
      * @return CheckboxSettingFactory
@@ -169,7 +169,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a color setting
+     * Create a color setting.
      *
      * @return ColorPaletteSettingFactory
      */
@@ -182,7 +182,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a date input setting
+     * Create a date input setting.
      *
      * @param string $key
      * @return DateSettingFactory
@@ -196,7 +196,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a file picker setting
+     * Create a file picker setting.
      *
      * @param string $key
      * @return FileSettingFactory
@@ -210,7 +210,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a textarea input setting
+     * Create a text area input setting.
      *
      * @param string $key
      * @return TextareaSettingFactory
@@ -224,7 +224,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a number input setting
+     * Create a number input setting.
      *
      * @param string $key
      * @return BaseSettingFactory
@@ -238,7 +238,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a double input setting
+     * Create a double input setting.
      *
      * @param string $key
      * @return DoubleSettingFactory
@@ -252,7 +252,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a dropdown setting
+     * Create a drop-down setting.
      *
      * @param string $key
      * @return SelectSettingFactory
@@ -266,7 +266,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a dropdown setting
+     * Create a drop-down setting.
      *
      * @param string $key
      * @return SuggestionSettingFactory
@@ -280,7 +280,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a category select setting
+     * Create a category select setting.
      *
      * @param string $key
      * @return CategorySettingFactory
@@ -294,7 +294,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * create a color setting
+     * Create a color setting.
      *
      * @param string $key
      * @return BaseSettingFactory
@@ -308,7 +308,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a slider setting
+     * Create a slider setting.
      *
      * @param string $key
      * @return SliderSettingFactory
@@ -322,7 +322,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a checkbox group setting
+     * Create a checkbox group setting.
      *
      * @param string $key
      * @return CheckboxGroupSettingFactory
@@ -336,7 +336,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a checkbox group setting
+     * Create a checkbox group setting.
      *
      * @param string $key
      * @return RadioGroupSettingFactory
@@ -350,7 +350,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a url picker
+     * Create a URL picker.
      *
      * @param string $key
      * @return UrlSettingFactory
@@ -364,7 +364,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a note editor setting
+     * Create a note editor setting.
      *
      * @param string $key
      * @return EditorSettingFactory
@@ -379,7 +379,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a code editor setting
+     * Create a code editor setting.
      *
      * @param string $key
      * @return EditorSettingFactory
@@ -394,7 +394,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create an UUID setting
+     * Create an UUID setting.
      *
      * @param $key
      * @return UUIDSettingFactory
@@ -408,7 +408,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a manufacturer picker
+     * Create a manufacturer picker.
      *
      * @param $key
      * @return ManufacturerSettingFactory
@@ -422,7 +422,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a custom class setting
+     * Create a custom class setting.
      *
      * @return CustomClassSettingFactory
      */
@@ -435,7 +435,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create an Appearance setting
+     * Create an appearance setting.
      *
      * @param $optional
      * @return AppearanceSettingFactory
@@ -449,7 +449,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create an icon setting
+     * Create an icon setting.
      *
      * @return IconSettingFactory
      */
@@ -462,7 +462,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a spacing setting
+     * Create a spacing setting.
      *
      * @param $usePadding
      * @param $useMargin
@@ -477,7 +477,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a height setting
+     * Create a height setting.
      *
      * @return HeightSettingFactory
      */
@@ -491,7 +491,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create a button size setting
+     * Create a button size setting.
      *
      * @return ButtonSizeSettingFactory
      */
@@ -504,7 +504,7 @@ class WidgetSettingsFactory
     }
 
     /**
-     * Create an alignment setting
+     * Create an alignment setting.
      *
      * @return AlignmentSettingFactory
      */
@@ -517,7 +517,7 @@ class WidgetSettingsFactory
     }
     
     /**
-     * Return the settings factory as an array
+     * Return the settings factory as an array.
      *
      * @return array
      */

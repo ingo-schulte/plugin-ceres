@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class TextSettingFactory
  *
- * Factory class for text setting
+ * Factory class for text setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class TextSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Determine if the input is a password
+     * Determine if the input is a password.
      *
      * @param boolean $isPassword
      * @return TextSettingFactory
@@ -28,7 +28,7 @@ class TextSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Determine if the input is an IBAN
+     * Determine if the input is an IBAN.
      *
      * @param boolean $isIBAN
      * @return TextSettingFactory
@@ -39,7 +39,7 @@ class TextSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Determine if the input is readonly
+     * Determine if the input is read-only.
      *
      * @param boolean $isReadonly
      * @return TextSettingFactory

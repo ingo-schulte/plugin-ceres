@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class OrderPropertyWidget
  *
- * Widget class to provide data and settings for the order property widget
+ * Widget class to provide data and settings for the order property widget.
  *
  * @package Ceres\Widgets\Item
  */

@@ -16,7 +16,7 @@ use Plenty\Plugin\Http\Request;
 /**
  * Class ItemSortingWidget
  *
- * Widget class to provide data and settings for the item sorting widget
+ * Widget class to provide data and settings for the item sorting widget.
  *
  * @package Ceres\Widgets\Category
  */

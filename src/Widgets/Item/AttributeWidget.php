@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AttributeWidget
  *
- * Widget class to provide data and settings for the attribute widget
+ * Widget class to provide data and settings for the attribute widget.
  *
  * @package Ceres\Widgets\Item
  */

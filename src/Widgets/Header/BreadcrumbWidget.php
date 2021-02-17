@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class BreadcrumbWidget
  *
- * Widget class to provide data and settings for the breadcrumb widget
+ * Widget class to provide data and settings for the breadcrumb navigation widget.
  *
  * @package Ceres\Widgets\Header
  */

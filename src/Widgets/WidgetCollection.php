@@ -104,7 +104,7 @@ use Ceres\Widgets\OrderConfirmation\PurchasedItemsWidget;
 /**
  * Class WidgetCollection
  *
- * Provide constants determining which widgets belong to which category
+ * Provide constants determining which widgets belong to which category.
  *
  * @package Ceres\Widgets
  */
@@ -273,7 +273,7 @@ class WidgetCollection
     ];
     
     /**
-     * Return all existing widget categories
+     * Return all existing widget categories.
      *
      * @return array
      */

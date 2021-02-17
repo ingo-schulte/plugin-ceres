@@ -11,7 +11,7 @@ use Plenty\Plugin\Application;
 /**
  * Class DefaultHeaderPreset
  *
- * Preset class for the header
+ * Preset class for the header.
  *
  * @package Ceres\Widgets\Presets
  */

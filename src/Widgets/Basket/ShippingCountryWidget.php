@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ShippingCountryWidget
  *
- * Widget class to provide data and settings for the shipping country widget
+ * Widget class to provide data and settings for the shipping country widget.
  *
  * @package Ceres\Widgets\Basket
  */

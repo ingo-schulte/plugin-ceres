@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class QuantityInputWidget
  *
- * Widget class to provide data and settings for the quantity input widget
+ * Widget class to provide data and settings for the quantity input widget.
  *
  * @package Ceres\Widgets\Item
  */

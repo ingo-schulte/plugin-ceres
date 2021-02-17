@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class LogoutButtonWidget
  *
- * Widget class to provide data and settings for the logout button widget
+ * Widget class to provide data and settings for the logout button widget.
  *
  * @package Ceres\Widgets\MyAccount
  */

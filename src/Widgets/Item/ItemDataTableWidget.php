@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemDataTableWidget
  *
- * Widget class to provide data and settings for the item data table widget
+ * Widget class to provide data and settings for the item data table widget.
  *
  * @package Ceres\Widgets\Item
  */

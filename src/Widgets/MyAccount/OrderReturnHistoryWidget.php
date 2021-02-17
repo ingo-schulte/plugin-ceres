@@ -13,7 +13,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class OrderReturnHistoryWidget
  *
- * Widget class to provide data and settings for the order return history widget
+ * Widget class to provide data and settings for the order return history widget.
  *
  * @package Ceres\Widgets\MyAccount
  */

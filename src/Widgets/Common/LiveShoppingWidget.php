@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class LiveShoppingWidget
  *
- * Widget class to provide data and settings for the live shopping widget
+ * Widget class to provide data and settings for the live shopping widget.
  *
  * @package Ceres\Widgets\Common
  */

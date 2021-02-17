@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class OrderReturnPreset
  *
- * Preset class for order returns
+ * Preset class for order returns page.
  *
  * @package Ceres\Widgets\Presets
  */

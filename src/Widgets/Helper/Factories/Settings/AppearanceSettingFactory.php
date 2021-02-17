@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class AppearanceSettingFactory
  *
- * Factory class for appearance setting
+ * Factory class for appearance setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

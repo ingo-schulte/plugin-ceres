@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AccountSettingsWidget
  *
- * Widget class to provide data and settings for the account settings widget
+ * Widget class to provide data and settings for the account settings widget.
  *
  * @package Ceres\Widgets\MyAccount
  */

@@ -10,7 +10,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class ItemCategoryPreset
  *
- * Preset class for the item category
+ * Preset class for the item category page.
  *
  * @package Ceres\Widgets\Presets
  */

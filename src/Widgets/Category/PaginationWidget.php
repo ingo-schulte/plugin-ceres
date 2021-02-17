@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class PaginationWidget
  *
- * Widget class to provide data and settings for the pagination widget
+ * Widget class to provide data and settings for the pagination widget.
  *
  * @package Ceres\Widgets\Category
  */

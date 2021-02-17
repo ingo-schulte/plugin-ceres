@@ -11,7 +11,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultCheckoutPreset
  *
- * Preset class for the checkout
+ * Preset class for the checkout.
  *
  * @package Ceres\Widgets\Presets
  */

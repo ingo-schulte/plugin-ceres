@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class SeparatorWidget
  *
- * Widget class to provide data and settings for the separator widget
+ * Widget class to provide data and settings for the separator widget.
  *
  * @package Ceres\Widgets\Common
  */

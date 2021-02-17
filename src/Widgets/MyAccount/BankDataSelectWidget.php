@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class BankDataSelectWidget
  *
- * Widget class to provide data and settings for the bank data select widget
+ * Widget class to provide data and settings for the bank data selection widget.
  *
  * @package Ceres\Widgets\MyAccount
  */

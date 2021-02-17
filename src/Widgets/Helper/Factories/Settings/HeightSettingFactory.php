@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class HeightSettingFactory
  *
- * Factory class for height setting
+ * Factory class for height setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

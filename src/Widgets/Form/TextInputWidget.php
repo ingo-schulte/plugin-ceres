@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class TextInputWidget
  *
- * Widget class to provide data and settings for the text input widget
+ * Widget class to provide data and settings for the text input widget.
  *
  * @package Ceres\Widgets\Form
  */

@@ -8,7 +8,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AvailabilityFilterWidget
  *
- * Widget class to provide data and settings for the availability filter widget
+ * Widget class to provide data and settings for the availability filter widget.
  *
  * @package Ceres\Widgets\Category\Filter
  */

@@ -7,14 +7,14 @@ use Plenty\Modules\Webshop\Contracts\WebstoreConfigurationRepositoryContract;
 /**
  * Class ItemSortValueListFactory
  *
- * Factory class for item sort value list setting
+ * Factory class for item sort value list setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
 class ItemSortValueListFactory extends ValueListFactory
 {
     /**
-     * Create an instance of the item sort value list
+     * Create an instance of the item sort value list.
      *
      * @param bool $withRandomOption
      * @return ValueListFactory

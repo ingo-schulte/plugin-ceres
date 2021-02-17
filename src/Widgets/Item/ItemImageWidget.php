@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemImageWidget
  *
- * Widget class to provide data and settings for the item image widget
+ * Widget class to provide data and settings for the item image widget.
  *
  * @package Ceres\Widgets\Item
  */

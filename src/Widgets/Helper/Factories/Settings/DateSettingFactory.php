@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class DateSettingFactory
  *
- * Factory class for date setting
+ * Factory class for date setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class DateSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the calendar should be opened on top
+     * Set if the calendar should be opened on top.
      *
      * @param boolean $isCalendarTop
      * @return DateSettingFactory
@@ -28,7 +28,7 @@ class DateSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the date format should be shown
+     * Set if the date format should be shown.
      *
      * @param string $format
      * @return DateSettingFactory

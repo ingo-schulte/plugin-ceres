@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class FileSettingFactory
  *
- * Factory class for file setting
+ * Factory class for file setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -18,7 +18,7 @@ class FileSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the preview should be shown
+     * Determine if the preview should be shown.
      *
      * @param boolean $showPreview
      * @return FileSettingFactory
@@ -29,7 +29,7 @@ class FileSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set the allowed file extensions
+     * Set the allowed file extensions.
      *
      * @param array $allowedExtensions
      * @return FileSettingFactory
@@ -40,7 +40,7 @@ class FileSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if picking folders is allowed
+     * Set if picking folders is allowed.
      *
      * @param bool $foldersAllowed
      * @return FileSettingFactory

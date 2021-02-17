@@ -17,16 +17,16 @@ use Plenty\Modules\Order\Status\Models\OrderStatus;
 /**
  * Class OrderHistoryWidget
  *
- * Widget class to provide data and settings for the order history widget
+ * Widget class to provide data and settings for the order history widget.
  *
  * @package Ceres\Widgets\MyAccount
  */
 class OrderHistoryWidget extends BaseWidget
 {
-    /** @var Collection $statuses A collection of all order statuses */
+    /** @var Collection $statuses A collection of all order statuses. */
     private $statuses = null;
     
-    /** @var null|string $lang The currently selected shop language */
+    /** @var null|string $lang The currently selected shop language. */
     private $lang = null;
     
     /** @inheritDoc */

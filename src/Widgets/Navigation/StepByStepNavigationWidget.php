@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class StepByStepNavigationWidget
  *
- * Widget class to provide data and settings for the step by step navigation widget
+ * Widget class to provide data and settings for the step by step navigation widget.
  *
  * @package Ceres\Widgets\Navigation
  */

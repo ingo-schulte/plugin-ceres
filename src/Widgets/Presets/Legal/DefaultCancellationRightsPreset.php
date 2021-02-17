@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultCancellationRightsPreset
  *
- * Preset class for the cancellation rights
+ * Preset class for the cancellation rights.
  *
  * @package Ceres\Widgets\Presets\Legal
  */

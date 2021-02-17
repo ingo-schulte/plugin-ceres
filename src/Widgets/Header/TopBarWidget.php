@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class TopBarWidget
  *
- * Widget class to provide data and settings for the top bar widget
+ * Widget class to provide data and settings for the top bar widget.
  *
  * @package Ceres\Widgets\Header
  */

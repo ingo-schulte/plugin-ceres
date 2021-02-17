@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemsPerPageWidget
  *
- * Widget class to provide data and settings for the items per page widget
+ * Widget class to provide data and settings for the items per page widget.
  *
  * @package Ceres\Widgets\Category
  */

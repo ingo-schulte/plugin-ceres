@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CustomerSignWidget
  *
- * Widget class to provide data and settings for the customer sign widget
+ * Widget class to provide data and settings for the customer sign widget.
  *
  * @package Ceres\Widgets\Checkout
  */

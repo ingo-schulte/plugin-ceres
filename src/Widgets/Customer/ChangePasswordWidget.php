@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ChangePasswordWidget
  *
- * Widget class to provide data and settings for the change password widget
+ * Widget class to provide data and settings for the change password widget.
  *
  * @package Ceres\Widgets\Customer
  */

@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class PlaceOrderWidget
  *
- * Widget class to provide data and settings for the place order widget
+ * Widget class to provide data and settings for the place order button widget.
  *
  * @package Ceres\Widgets\Checkout
  */

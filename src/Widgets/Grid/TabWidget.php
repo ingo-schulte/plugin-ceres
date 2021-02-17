@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class TabWidget
  *
- * Widget class to provide data and settings for the tab widget
+ * Widget class to provide data and settings for the tab widget.
  *
  * @package Ceres\Widgets\Grid
  */

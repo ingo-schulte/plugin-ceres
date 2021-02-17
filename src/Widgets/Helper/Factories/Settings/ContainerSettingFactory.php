@@ -13,7 +13,7 @@ use Ceres\Widgets\Helper\Factories\WidgetSettingsFactory;
  */
 class ContainerSettingFactory extends BaseSettingFactory
 {
-    /** @var WidgetSettingsFactory $children Nested settings which are grouped inside a container */
+    /** @var WidgetSettingsFactory $children Nested settings which are grouped inside a container. */
     public $children;
 
     /**
@@ -38,7 +38,7 @@ class ContainerSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Get all children as a native array
+     * Get all children as a native array.
      *
      * @return array
      */

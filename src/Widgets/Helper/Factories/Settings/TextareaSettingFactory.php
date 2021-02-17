@@ -6,7 +6,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class TextareaSettingFactory
  *
- * Factory class for Textarea setting
+ * Factory class for text area setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -18,7 +18,7 @@ class TextareaSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set the textarea to a fixed height
+     * Set the text area to a fixed height.
      *
      * @param boolean $isFixedHeight
      * @return TextareaSettingFactory
@@ -29,7 +29,7 @@ class TextareaSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set the maximum rows
+     * Set the maximum rows.
      *
      * @param integer $maxRows
      * @return TextareaSettingFactory

@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AddToBasketWidget
  *
- * Widget class to provide data and settings for the add to basket widget
+ * Widget class to provide data and settings for the add to basket widget.
  *
  * @package Ceres\Widgets\Item
  */

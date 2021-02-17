@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CodeWidget
  *
- * Widget class to provide data and settings for the code widget
+ * Widget class to provide data and settings for the code widget.
  *
  * @package Ceres\Widgets\Common
  */

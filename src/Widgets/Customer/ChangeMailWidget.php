@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ChangeMailWidget
  *
- * Widget class to provide data and settings for the change mail widget
+ * Widget class to provide data and settings for the change email widget.
  *
  * @package Ceres\Widgets\Customer
  */

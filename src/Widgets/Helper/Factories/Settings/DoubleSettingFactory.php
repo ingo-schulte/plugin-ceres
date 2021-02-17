@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class DoubleSettingFactory
  *
- * Factory class for double setting
+ * Factory class for double setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class DoubleSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the input is for a price
+     * Set if the input is for a price.
      *
      * @param $isPriceInput
      * @return DoubleSettingFactory
@@ -28,7 +28,7 @@ class DoubleSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set how many decimals should be shown
+     * Set how many decimals should be shown.
      *
      * @param integer $decimalCount
      * @return DoubleSettingFactory

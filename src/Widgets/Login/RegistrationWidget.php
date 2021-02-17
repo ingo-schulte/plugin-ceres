@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class RegistrationWidget
  *
- * Widget class to provide data and settings for the registration widget
+ * Widget class to provide data and settings for the registration widget.
  *
  * @package Ceres\Widgets\Login
  */

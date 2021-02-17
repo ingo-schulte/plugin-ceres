@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AcceptPrivacyPolicyWidget
  *
- * Widget class to provide data and settings for the accept privacy policy widget
+ * Widget class to provide data and settings for the accept privacy policy widget.
  *
  * @package Ceres\Widgets\Form
  */

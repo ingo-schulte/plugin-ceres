@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ImageCarouselWidget
  *
- * Widget class to provide data and settings for the Image carousel widget
+ * Widget class to provide data and settings for the image carousel widget.
  *
  * @package Ceres\Widgets\Common
  */

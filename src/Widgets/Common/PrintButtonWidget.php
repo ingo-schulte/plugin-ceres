@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class PrintButtonWidget
  *
- * Widget class to provide data and settings for the print button widget
+ * Widget class to provide data and settings for the print button widget.
  *
  * @package Ceres\Widgets\Common
  */

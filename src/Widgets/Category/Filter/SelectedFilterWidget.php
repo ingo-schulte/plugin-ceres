@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class SelectedFilterWidget
  *
- * Widget class to provide data and settings for the selected filter widget
+ * Widget class to provide data and settings for the selected filter widget.
  *
  * @package Ceres\Widgets\Category\Filter
  */

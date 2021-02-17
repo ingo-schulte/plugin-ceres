@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class StickyContainerWidget
  *
- * Widget class to provide data and settings for the sticky container widget
+ * Widget class to provide data and settings for the sticky container widget.
  *
  * @package Ceres\Widgets\Grid
  */

@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ToolbarWidget
  *
- * Widget class to provide data and settings for the toolbar widget
+ * Widget class to provide data and settings for the toolbar widget.
  *
  * @package Ceres\Widgets\Category
  */

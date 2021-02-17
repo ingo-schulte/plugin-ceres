@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class NewsletterWidget
  *
- * Widget class to provide data and settings for the newsletter widget
+ * Widget class to provide data and settings for the newsletter widget.
  *
  * @package Ceres\Widgets\Common
  */

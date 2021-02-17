@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class PaymentProviderWidget
  *
- * Widget class to provide data and settings for the payment provider widget
+ * Widget class to provide data and settings for the payment provider widget.
  *
  * @package Ceres\Widgets\Checkout
  */

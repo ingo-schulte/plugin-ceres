@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class MailFormWidget
  *
- * Widget class to provide data and settings for the mail form widget
+ * Widget class to provide data and settings for the mail form widget.
  *
  * @package Ceres\Widgets\Form
  */

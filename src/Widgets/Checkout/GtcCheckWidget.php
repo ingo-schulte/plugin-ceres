@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class GtcCheckWidget
  *
- * Widget class to provide data and settings for the gtc check widget
+ * Widget class to provide data and settings for the general terms and conditions check widget.
  *
  * @package Ceres\Widgets\Checkout
  */

@@ -7,17 +7,17 @@ use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
 /**
  * Class PresetHelper
  *
- * Helper class to create widgets out of a preset
+ * Helper class to create widgets out of a preset.
  *
  * @package Ceres\Widgets\Helper
  */
 class PresetHelper
 {
-    /** @var array $widgetFactories A collection of all widget factories */
+    /** @var array $widgetFactories A collection of all widget factories. */
     private $widgetFactories = [];
     
     /**
-     * @param string $identifier The identifier of the widget to create
+     * @param string $identifier The identifier of the widget to create.
      *
      * @return PresetWidgetFactory
      */

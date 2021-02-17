@@ -11,7 +11,7 @@ use Ceres\Widgets\OrderConfirmation\OrderConfirmationBaseWidget;
 /**
  * Class PurchasedItemsWidget
  *
- * Widget class to provide data and settings for the purchased items widget
+ * Widget class to provide data and settings for the purchased items widget.
  *
  * @package Ceres\Widgets\OrderConfirmation
  */

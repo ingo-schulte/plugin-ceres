@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ShippingPrivacyCheckWidget
  *
- * Widget class to provide data and settings for the shipping privacy check widget
+ * Widget class to provide data and settings for the shipping privacy checkbox widget.
  *
  * @package Ceres\Widgets\Checkout
  */

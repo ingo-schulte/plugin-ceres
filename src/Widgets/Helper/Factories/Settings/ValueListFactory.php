@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class ValueListFactory
  *
- * Factory class for value lists
+ * Factory class for value lists.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -14,7 +14,7 @@ class ValueListFactory
     private $valueList;
 
     /**
-     * Create a new instance of a value list factory
+     * Create a new instance of a value list factory.
      *
      * @return ValueListFactory
      */
@@ -26,7 +26,7 @@ class ValueListFactory
     }
 
     /**
-     * Add an entry to the list
+     * Add an entry to the list.
      *
      * @param $value
      * @param $caption
@@ -42,7 +42,7 @@ class ValueListFactory
     }
     
     /**
-     * Return the factory as an array
+     * Return the factory as an array.
      *
      * @return mixed
      */

@@ -12,7 +12,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultContactPreset
  *
- * Preset class for contact
+ * Preset class for contact page.
  *
  * @package Ceres\Widgets\Presets
  */

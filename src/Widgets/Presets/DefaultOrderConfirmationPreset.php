@@ -14,7 +14,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultOrderConfirmationPreset
  *
- * Preset class for the order confirmation
+ * Preset class for the order confirmation.
  *
  * @package Ceres\Widgets\Presets
  */

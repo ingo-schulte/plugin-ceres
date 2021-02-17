@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class UUIDSettingFactory
  *
- * Factory class for UUID setting
+ * Factory class for UUID setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

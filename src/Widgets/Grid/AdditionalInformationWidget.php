@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AdditionalInformationWidget
  *
- * Widget class to provide data and settings for the additional information widget
+ * Widget class to provide data and settings for the additional information widget.
  *
  * @package Ceres\Widgets\Grid
  */

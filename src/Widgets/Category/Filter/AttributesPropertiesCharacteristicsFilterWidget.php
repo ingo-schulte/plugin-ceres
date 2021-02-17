@@ -8,7 +8,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AttributesPropertiesCharacteristicsFilterWidget
  *
- * Widget class to provide data and settings for the attributes, properties and characteristics filter widget
+ * Widget class to provide data and settings for the attributes, properties, and characteristics filter widget.
  *
  * @package Ceres\Widgets\Category\Filter
  */

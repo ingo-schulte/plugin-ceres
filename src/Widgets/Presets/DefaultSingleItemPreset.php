@@ -12,7 +12,7 @@ use IO\Extensions\Functions\UniqueId;
 /**
  * Class DefaultSingleItemPreset
  *
- * Preset class for the single item
+ * Preset class for the single item view.
  *
  * @package Ceres\Widgets\Presets
  */

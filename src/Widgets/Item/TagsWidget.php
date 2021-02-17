@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class TagsWidget
  *
- * Widget class to provide data and settings for the tags widget
+ * Widget class to provide data and settings for the tags widget.
  *
  * @package Ceres\Widgets\Item
  */

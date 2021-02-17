@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class ButtonSizeSettingFactory
  *
- * Factory class for button size setting
+ * Factory class for button size setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

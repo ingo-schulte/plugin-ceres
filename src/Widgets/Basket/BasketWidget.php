@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class BasketWidget
  *
- * Widget class to provide data and settings for the basket widget
+ * Widget class to provide data and settings for the basket widget.
  *
  * @package Ceres\Widgets\Basket
  */

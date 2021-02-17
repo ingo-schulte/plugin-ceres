@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class GreetingWidget
  *
- * Widget class to provide data and settings for the greeting widget
+ * Widget class to provide data and settings for the greeting widget.
  *
  * @package Ceres\Widgets\MyAccount
  */

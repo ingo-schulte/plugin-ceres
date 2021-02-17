@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class BackgroundWidget
  *
- * Widget class to provide data and settings for the background widget
+ * Widget class to provide data and settings for the background image widget.
  *
  * @package Ceres\Widgets\Common
  */

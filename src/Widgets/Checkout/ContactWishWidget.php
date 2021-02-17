@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ContactWishWidget
  *
- * Widget class to provide data and settings for the contact wish widget
+ * Widget class to provide data and settings for the contact wish widget.
  *
  * @package Ceres\Widgets\Checkout
  */

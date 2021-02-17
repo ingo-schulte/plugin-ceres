@@ -10,7 +10,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultPageNotFoundPreset
  *
- * Preset class for page not found
+ * Preset class for page not found page.
  *
  * @package Ceres\Widgets\Presets
  */

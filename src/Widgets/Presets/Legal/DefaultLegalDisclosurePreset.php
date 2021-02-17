@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultLegalDisclosurePreset
  *
- * Preset class for the legal disclosure
+ * Preset class for the legal disclosure.
  *
  * @package Ceres\Widgets\Presets\Legal
  */

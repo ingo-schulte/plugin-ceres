@@ -12,7 +12,7 @@ use IO\Services\Order\Factories\OrderResultFactory;
 /**
  * Class OrderReturnWidget
  *
- * Widget class to provide data and settings for the order return widget
+ * Widget class to provide data and settings for the order return widget.
  *
  * @package Ceres\Widgets\OrderConfirmation
  */

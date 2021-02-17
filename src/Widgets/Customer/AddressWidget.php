@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class AddressWidget
  *
- * Widget class to provide data and settings for the address widget
+ * Widget class to provide data and settings for the address widget.
  *
  * @package Ceres\Widgets\Customer
  */

@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class TwoColumnWidget
  *
- * Widget class to provide data and settings for the two column widget
+ * Widget class to provide data and settings for the two column grid widget.
  *
  * @package Ceres\Widgets\Grid
  */

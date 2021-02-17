@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CouponWidget
  *
- * Widget class to provide data and settings for the coupon widget
+ * Widget class to provide data and settings for the coupon widget.
  *
  * @package Ceres\Widgets\Basket
  */

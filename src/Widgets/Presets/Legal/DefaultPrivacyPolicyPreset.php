@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultPrivacyPolicyPreset
  *
- * Preset class for the privacy policy
+ * Preset class for the privacy policy.
  *
  * @package Ceres\Widgets\Presets\Legal
  */

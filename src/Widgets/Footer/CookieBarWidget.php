@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CookieBarWidget
  *
- * Widget class to provide data and settings for the cookie bar widget
+ * Widget class to provide data and settings for the cookie bar widget.
  *
  * @package Ceres\Widgets\Footer
  */

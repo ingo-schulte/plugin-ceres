@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class SelectSettingFactory
  *
- * Factory class for select setting
+ * Factory class for select setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class SelectSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the select should be opened at the top
+     * Set if the selection should be opened at the top.
      *
      * @param boolean $openOnTop
      * @return SelectSettingFactory
@@ -28,7 +28,7 @@ class SelectSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * set the values of the select
+     * Set the values of the selection.
      *
      * @param array $listBoxValues
      * @return SelectSettingFactory

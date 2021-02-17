@@ -8,7 +8,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class CategoryFilterWidget
  *
- * Widget class to provide data and settings for the category filter widget
+ * Widget class to provide data and settings for the category filter widget.
  *
  * @package Ceres\Widgets\Category\Filter
  */

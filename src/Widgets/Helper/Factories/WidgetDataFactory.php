@@ -32,7 +32,7 @@ class WidgetDataFactory
     /**
      * Set a label for this widget. Will be translated.
      *
-     * @param string $label Label of the widget to be displayed in the shop builder
+     * @param string $label Label of the widget to be displayed in the shopBuilder.
      * @return $this
      */
     public function withLabel($label)
@@ -42,7 +42,7 @@ class WidgetDataFactory
     }
 
     /**
-     * Set the url of a preview image for the widget.
+     * Set the URL of a preview image for the widget.
      * Path of the plugin resources will be prepended.
      *
      * @param string $previewImageUrl
@@ -58,7 +58,7 @@ class WidgetDataFactory
      * Set the type of the widget.
      * @see WidgetTypes
      *
-     * @param string $type  Type of the widget
+     * @param string $type  Type of the widget.
      * @return $this
      */
     public function withType($type)
@@ -84,7 +84,7 @@ class WidgetDataFactory
     /**
      * Set the position of the widget.
      *
-     * @param int $position Position of the widget
+     * @param int $position Position of the widget.
      * @return $this
      */
     public function withPosition($position)
@@ -96,7 +96,7 @@ class WidgetDataFactory
      /**
      * Limit the amount of times a widget can be placed on a content.
      *
-     * @param int $maxPerPage Maximum allowed amount of instances of the widget on a content
+     * @param int $maxPerPage Maximum allowed instances of the widget on a single content.
      * @return $this
      */
     public function withMaxPerPage($maxPerPage)

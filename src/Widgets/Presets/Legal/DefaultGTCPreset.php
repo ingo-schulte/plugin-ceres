@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultGTCPreset
  *
- * Preset class for the GTC
+ * Preset class for the GTC.
  *
  * @package Ceres\Widgets\Presets\Legal
  */

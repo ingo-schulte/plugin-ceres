@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class LinkWidget
  *
- * Widget class to provide data and settings for the link widget
+ * Widget class to provide data and settings for the link widget.
  *
  * @package Ceres\Widgets\Common
  */

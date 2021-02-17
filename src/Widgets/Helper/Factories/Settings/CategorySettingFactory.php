@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class CategorySettingFactory
  *
- * Factory class for category setting
+ * Factory class for category setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class CategorySettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the reset button should be displayed
+     * Set if the reset button should be displayed.
      *
      * @param bool $displayResetButton
      * @return CategorySettingFactory
@@ -28,7 +28,7 @@ class CategorySettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the search box should be displayed
+     * Set if the search box should be displayed.
      *
      * @param bool $displaySearch
      * @return CategorySettingFactory
@@ -39,7 +39,7 @@ class CategorySettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set if the full path of the selected category should be displayed
+     * Set if the full path of the selected category should be displayed.
      *
      * @param bool $showFullSelectionPath
      * @return CategorySettingFactory

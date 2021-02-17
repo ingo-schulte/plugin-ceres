@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemPriceWidget
  *
- * Widget class to provide data and settings for the item price widget
+ * Widget class to provide data and settings for the item price widget.
  *
  * @package Ceres\Widgets\Item
  */

@@ -11,7 +11,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class ItemSetPreset
  *
- * Preset class for the item set
+ * Preset class for the item set page.
  *
  * @package Ceres\Widgets\Presets
  */

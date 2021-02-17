@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultNewsletterUnsubscribePreset
  *
- * Preset class for newsletter unsubscribe
+ * Preset class for unsubscribe from newsletter page.
  *
  * @package Ceres\Widgets\Presets
  */

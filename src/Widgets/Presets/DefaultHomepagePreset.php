@@ -13,7 +13,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultHomepagePreset
  *
- * Preset class for the homepage
+ * Preset class for the homepage.
  *
  * @package Ceres\Widgets\Presets
  */

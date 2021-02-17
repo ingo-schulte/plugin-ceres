@@ -12,7 +12,7 @@ use IO\Services\ItemListService;
 /**
  * Class ItemSetWidget
  *
- * Widget class to provide data and settings for the item set widget
+ * Widget class to provide data and settings for the item set widget.
  *
  * @package Ceres\Widgets\Item
  */

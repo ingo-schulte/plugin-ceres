@@ -8,7 +8,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ManufacturerFilterWidget
  *
- * Widget class to provide data and settings for the manufacturer filter widget
+ * Widget class to provide data and settings for the manufacturer filter widget.
  *
  * @package Ceres\Widgets\Category\Filter
  */

@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class BasketTotalsWidget
  *
- * Widget class to provide data and settings for the basket totals widget
+ * Widget class to provide data and settings for the basket totals widget.
  *
  * @package Ceres\Widgets\Basket
  */

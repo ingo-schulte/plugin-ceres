@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class TitleBarWidget
  *
- * Widget class to provide data and settings for the title bar widget
+ * Widget class to provide data and settings for the title bar widget.
  *
  * @package Ceres\Widgets\Common
  */

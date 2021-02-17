@@ -15,7 +15,7 @@ use Plenty\Modules\Webshop\Contracts\ContactRepositoryContract;
 /**
  * Class NavigationTreeWidget
  *
- * Widget class to provide data and settings for the navigation tree widget
+ * Widget class to provide data and settings for the navigation tree widget. 
  *
  * @package Ceres\Widgets\Navigation
  */

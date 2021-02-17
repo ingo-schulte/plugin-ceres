@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class CheckboxSettingFactory
  *
- * Factory class for checkbox setting
+ * Factory class for checkbox setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -17,7 +17,7 @@ class CheckboxSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Set an icon to be displayed
+     * Set an icon to be displayed.
      *
      * @param string $icon
      * @return CheckboxSettingFactory

@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class DefaultChangeMailPreset
  *
- * Preset class for change mail
+ * Preset class for change mail page.
  *
  * @package Ceres\Widgets\Presets
  */

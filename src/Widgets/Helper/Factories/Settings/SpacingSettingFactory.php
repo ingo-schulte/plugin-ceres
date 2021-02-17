@@ -5,7 +5,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class SpacingSettingFactory
  *
- * Factory class for spacing setting
+ * Factory class for spacing setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */

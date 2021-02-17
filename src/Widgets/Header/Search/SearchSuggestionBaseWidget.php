@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class SearchSuggestionBaseWidget
  *
- * Widget class to provide data and settings for the search suggestion base widget
+ * Widget class to provide data and settings for the search suggestion base widget.
  *
  * @package Ceres\Widgets\Header\Search
  */
@@ -20,31 +20,31 @@ abstract class SearchSuggestionBaseWidget extends BaseWidget
     /** @inheritDoc */
     protected $template = 'Ceres::Widgets.Header.SearchSuggestionWidget';
 
-    /** @var string $widgetKey The key of the widget */
+    /** @var string $widgetKey The key of the widget. */
     protected $widgetKey = '';
 
-    /** @var string $widgetLabel The label of the widget */
+    /** @var string $widgetLabel The label of the widget. */
     protected $widgetLabel = '';
 
-    /** @var string $previewImageUrl The url of the preview image */
+    /** @var string $previewImageUrl The URL of the preview image. */
     protected $previewImageUrl = '';
 
-    /** @var int $position The position of the widget */
+    /** @var int $position The position of the widget. */
     protected $position = 100;
 
-    /** @var string $suggestionType The type of the suggestion widget */
+    /** @var string $suggestionType The type of the suggestion widget. */
     protected $suggestionType = '';
 
-    /** @var string $headline The headline of the suggestion widget */
+    /** @var string $headline The headline of the suggestion widget. */
     protected $headline = '';
 
-    /** @var bool $hasCountOption Indicate if the suggestion widget has the option to show counts behind the suggestions */
+    /** @var bool $hasCountOption Indicate if the suggestion widget has the option to show counts behind the suggestions. */
     protected $hasCountOption = false;
     
-    /** @var bool $hasImageOption Indicate if the suggestion widget has the option to show images for the suggestions */
+    /** @var bool $hasImageOption Indicate if the suggestion widget has the option to show images for the suggestions. */
     protected $hasImagesOption = false;
     
-    /** @var bool $hasAdditionalInformationOption Indicate if the suggestion widget has the option to show additional information for the suggestions */
+    /** @var bool $hasAdditionalInformationOption Indicate if the suggestion widget has the option to show additional information for the suggestions. */
     protected $hasAdditionalInformationOption = false;
     
     /**

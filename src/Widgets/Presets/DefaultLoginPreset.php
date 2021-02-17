@@ -11,7 +11,7 @@ use Plenty\Plugin\Translation\Translator;
 /**
  * Class DefaultLoginPreset
  *
- * Preset class for the login
+ * Preset class for the login page.
  *
  * @package Ceres\Widgets\Presets
  */

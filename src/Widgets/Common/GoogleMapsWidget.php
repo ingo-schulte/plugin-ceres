@@ -13,7 +13,7 @@ use Plenty\Plugin\Log\Loggable;
 /**
  * Class GoogleMapsWidget
  *
- * Widget class to provide data and settings for the google maps widget
+ * Widget class to provide data and settings for the Google Maps widget.
  *
  * @package Ceres\Widgets\Common
  */

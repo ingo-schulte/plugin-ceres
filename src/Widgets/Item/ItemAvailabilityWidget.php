@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemAvailabilityWidget
  *
- * Widget class to provide data and settings for the item availability widget
+ * Widget class to provide data and settings for the item availability widget.
  *
  * @package Ceres\Widgets\Item
  */

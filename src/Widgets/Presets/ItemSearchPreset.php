@@ -9,7 +9,7 @@ use Plenty\Modules\ShopBuilder\Contracts\ContentPreset;
 /**
  * Class ItemSearchPreset
  *
- * Preset class for the item search
+ * Preset class for the item search.
  *
  * @package Ceres\Widgets\Presets
  */
@@ -58,7 +58,7 @@ class ItemSearchPreset implements ContentPreset
     private function createSearchStringCodeWidget()
     {
         // DO NOT CHANGE INDENTATION
-        // Leading whitespaces will be displayed in code editor of the shopbuilder
+        // Leading whitespaces will be displayed in code editor of the shopBuilder.
         $this->preset->createWidget('Ceres::CodeWidget')
                      ->withSetting('text',
 '{% if category is empty and searchString is empty %}
@@ -91,7 +91,7 @@ class ItemSearchPreset implements ContentPreset
     private function createNoResultCodeWidget()
     {
         // DO NOT CHANGE INDENTATION
-        // Leading whitespaces will be displayed in code editor of the shopbuilder
+        // Leading whitespaces will be displayed in code editor of the shopBuilder
         $this->preset->createWidget('Ceres::CodeWidget')
                      ->withSetting('text',
 '{% if itemCountTotal <= 0 %}

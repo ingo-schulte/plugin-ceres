@@ -6,7 +6,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
 /**
  * Class SliderSettingFactory
  *
- * Factory class for slider setting
+ * Factory class for slider setting.
  *
  * @package Ceres\Widgets\Helper\Factories\Settings
  */
@@ -18,7 +18,7 @@ class SliderSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * The minimum number of slides
+     * The minimum number of slides.
      *
      * @param integer $min
      * @return SliderSettingFactory
@@ -29,7 +29,7 @@ class SliderSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * The maximum number of slides
+     * The maximum number of slides.
      *
      * @param integer $max
      * @return SliderSettingFactory
@@ -40,7 +40,7 @@ class SliderSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * The interval of the slider
+     * The interval of the slider.
      *
      * @param integer $interval
      * @return SliderSettingFactory
@@ -51,7 +51,7 @@ class SliderSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * The precision of the slider
+     * The precision of the slider.
      *
      * @param integer $precision
      * @return SliderSettingFactory
@@ -62,7 +62,7 @@ class SliderSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Show the minimum an maximum slides
+     * Show the minimum and maximum slides
      *
      * @param boolean $showMinMax
      * @return SliderSettingFactory
@@ -73,7 +73,7 @@ class SliderSettingFactory extends BaseSettingFactory
     }
 
     /**
-     * Show the ticks of the slides
+     * Show the ticks of the slides.
      *
      * @param boolean $showTicks
      * @return SliderSettingFactory

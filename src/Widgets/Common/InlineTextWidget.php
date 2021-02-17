@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class InlineTextWidget
  *
- * Widget class to provide data and settings for the inline text widget
+ * Widget class to provide data and settings for the inline text widget.
  *
  * @package Ceres\Widgets\Common
  */

@@ -10,7 +10,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class PrivacySettingsWidget
  *
- * Widget class to provide data and settings for the privacy settings widget
+ * Widget class to provide data and settings for the privacy settings widget.
  *
  * @package Ceres\Widgets\Common
  */

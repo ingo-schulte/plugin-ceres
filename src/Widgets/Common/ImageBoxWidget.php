@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ImageBoxWidget
  *
- * Widget class to provide data and settings for the image box widget
+ * Widget class to provide data and settings for the image box widget.
  *
  * @package Ceres\Widgets\Common
  */

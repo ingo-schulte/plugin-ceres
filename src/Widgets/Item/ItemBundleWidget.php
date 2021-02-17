@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class ItemBundleWidget
  *
- * Widget class to provide data and settings for the item bundle widget
+ * Widget class to provide data and settings for the item bundle widget.
  *
  * @package Ceres\Widgets\Item
  */

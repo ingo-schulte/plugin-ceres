@@ -12,7 +12,7 @@ namespace Ceres\Widgets\Helper\Factories\Settings;
  */
 class BaseSettingFactory
 {
-    /** @var array $data contains the widget settings data */
+    /** @var array $data contains the widget settings data. */
     protected $data = [];
     
     /**
@@ -44,8 +44,8 @@ class BaseSettingFactory
     /**
      * Set an option for the setting.
      *
-     * @param string $key The option key
-     * @param mixed $value The option value
+     * @param string $key The option key.
+     * @param mixed $value The option value.
      * @return $this
      */
     public function withOption($key, $value)
@@ -58,7 +58,7 @@ class BaseSettingFactory
     /**
      * Set the default value for the setting.
      *
-     * @param array|mixed $defaultValue The default value
+     * @param array|mixed $defaultValue The default value.
      * @return $this
      */
     public function withDefaultValue($defaultValue)
@@ -82,7 +82,7 @@ class BaseSettingFactory
     /**
      * Set the name of the setting.
      *
-     * @param string $name The label of the setting
+     * @param string $name The label of the setting.
      * @return $this
      */
     public function withName($name)
@@ -91,9 +91,9 @@ class BaseSettingFactory
     }
 
     /**
-     * Set a tooltip text for this input
+     * Set a tooltip text for this input.
      *
-     * @param string $tooltip An additional description of the setting
+     * @param string $tooltip An additional description of the setting.
      * @return $this
      */
     public function withTooltip($tooltip)
@@ -127,7 +127,7 @@ class BaseSettingFactory
     }
 
     /**
-     * Get all data as a native array
+     * Get all data as a native array.
      *
      * @return array
      */

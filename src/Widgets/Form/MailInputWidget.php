@@ -11,7 +11,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class MailInputWidget
  *
- * Widget class to provide data and settings for the mail input widget
+ * Widget class to provide data and settings for the mail input widget.
  *
  * @package Ceres\Widgets\Form
  */

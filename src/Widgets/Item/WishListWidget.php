@@ -12,7 +12,7 @@ use Ceres\Widgets\Helper\WidgetTypes;
 /**
  * Class WishListWidget
  *
- * Widget class to provide data and settings for the wishlist widget
+ * Widget class to provide data and settings for the wishlist widget.
  *
  * @package Ceres\Widgets\Item
  */
