@@ -15,10 +15,9 @@ module.exports = env =>
             path: path.resolve(__dirname, "..", "..", "resources/js/dist/"),
             libraryTarget: "commonjs2"
         },
-        resolve: {
-            alias: {
-                vue: "vue/dist/vue" + (env.prod ? ".min" : "") + ".js"
-            }
+        externals: {
+            vue: 'root Vue',
+            vuex: 'root Vuex'
         },
         devtool: false,
         module: {
