@@ -304,10 +304,12 @@ if ( headerParent )
             const scrollTop = window.pageYOffset;
             const header = document.querySelector("#page-header");
 
-            if (scrollTop > 0) {
+            if (scrollTop > 0)
+            {
                 header.classList.add("realy-fixed");
             }
-            else {
+            else
+            {
                 header.classList.remove("realy-fixed");
             }
 
@@ -316,7 +318,8 @@ if ( headerParent )
                 const elem = headerParent.children[i];
                 const elemHeight = allHeaderChildrenHeights[i];
 
-                if (scrollTop <= 0) {
+                if (scrollTop <= 0)
+                {
                     elem.style.top = null;
                     elem.style.position = "relative";
                     continue;
