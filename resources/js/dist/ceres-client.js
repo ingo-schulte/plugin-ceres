@@ -68226,12 +68226,15 @@ if (headerParent) {
   var headerHeight = 0; // Calculate top offset for vue-app node because header is not part of document flow
 
   function calculateBodyOffset() {
+    var scrollTop = window.pageYOffset;
+    var vueApp = document.getElementById("vue-app");
     headerParent = headerParent.offsetParent ? headerParent : document.querySelector("[data-header-offset]");
 
-    if (headerLoaded && headerParent) {
-      var vueApp = document.getElementById("vue-app");
+    if (scrollTop > 0 && headerLoaded && headerParent) {
       vueApp.style.marginTop = headerHeight + "px";
       vueApp.style.minHeight = "calc(100vh - " + headerHeight + "px)";
+    } else if (scrollTop <= 0) {
+      vueApp.style.marginTop = null;
     }
   } // Set descending z-index for all header elements and create list of elements with unfixed class for later use
 
@@ -68270,10 +68273,24 @@ if (headerParent) {
       var fixedElementsHeight = 0;
       var offset = 0;
       var scrollTop = window.pageYOffset;
+      var header = document.querySelector("#page-header");
+
+      if (scrollTop > 0) {
+        header.classList.add("realy-fixed");
+      } else {
+        header.classList.remove("realy-fixed");
+      }
 
       for (var i = 0; i < headerParent.children.length; i++) {
         var elem = headerParent.children[i];
         var elemHeight = allHeaderChildrenHeights[i];
+
+        if (scrollTop <= 0) {
+          elem.style.top = null;
+          elem.style.position = "relative";
+          continue;
+        }
+
         offset = absolutePos - scrollTop;
         elem.style.position = "absolute"; // Element is unfixed and should scroll indefinetly
 
@@ -68296,6 +68313,8 @@ if (headerParent) {
 
         absolutePos = absolutePos + elemHeight;
       }
+
+      calculateBodyOffset();
     }
   }
 
