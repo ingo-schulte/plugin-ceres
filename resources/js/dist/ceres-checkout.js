@@ -91773,18 +91773,26 @@ var headerParent = document.querySelector("[data-header-offset]");
 if (headerParent) {
   var headerLoaded = false;
   var allHeaderChildrenHeights = [];
-  var headerHeight = 0; // Calculate top offset for vue-app node because header is not part of document flow
+  var headerHeight = 0;
+  var hasCalculatedBodyOffset = false; // Calculate top offset for vue-app node because header is not part of document flow
 
   function calculateBodyOffset() {
-    var scrollTop = window.pageYOffset;
-    var vueApp = document.getElementById("vue-app");
-    headerParent = headerParent.offsetParent ? headerParent : document.querySelector("[data-header-offset]");
+    var isScrollTop = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+    var vueApp = document.getElementById("vue-app"); // if the page is at the top, unset the margin-top and min-height
 
-    if (scrollTop > 0 && headerLoaded && headerParent) {
-      vueApp.style.marginTop = headerHeight + "px";
-      vueApp.style.minHeight = "calc(100vh - " + headerHeight + "px)";
-    } else if (scrollTop <= 0) {
+    if (isScrollTop) {
       vueApp.style.marginTop = null;
+      vueApp.style.minHeight = null;
+      hasCalculatedBodyOffset = false;
+    } else if (!hasCalculatedBodyOffset) {
+      headerParent = headerParent.offsetParent ? headerParent : document.querySelector("[data-header-offset]");
+
+      if (headerLoaded && headerParent) {
+        vueApp.style.marginTop = headerHeight + "px";
+        vueApp.style.minHeight = "calc(100vh - " + headerHeight + "px)";
+      }
+
+      hasCalculatedBodyOffset = true;
     }
   } // Set descending z-index for all header elements and create list of elements with unfixed class for later use
 
@@ -91823,13 +91831,8 @@ if (headerParent) {
       var fixedElementsHeight = 0;
       var offset = 0;
       var scrollTop = window.pageYOffset;
+      var isScrollTop = scrollTop <= 0;
       var header = document.querySelector("#page-header");
-
-      if (scrollTop > 0) {
-        header.classList.add("realy-fixed");
-      } else {
-        header.classList.remove("realy-fixed");
-      }
 
       for (var i = 0; i < headerParent.children.length; i++) {
         var elem = headerParent.children[i];
@@ -91837,7 +91840,7 @@ if (headerParent) {
 
         if (scrollTop <= 0) {
           elem.style.top = null;
-          elem.style.position = "relative";
+          elem.style.position = null;
           continue;
         }
 
@@ -91862,9 +91865,16 @@ if (headerParent) {
           }
 
         absolutePos = absolutePos + elemHeight;
+      } // fixate the header only, if the user scrolls down
+
+
+      if (isScrollTop) {
+        header.classList.remove("fixed-top");
+      } else {
+        header.classList.add("fixed-top");
       }
 
-      calculateBodyOffset();
+      calculateBodyOffset(isScrollTop);
     }
   }
 
