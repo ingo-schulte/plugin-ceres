@@ -87508,7 +87508,9 @@ function initClientListeners(store) {
 function initClientStore(store) {
   window.ceresStore = store;
   store.commit("initConsents");
-  store.dispatch("loadBasketData");
+  vue__WEBPACK_IMPORTED_MODULE_1___default.a.nextTick(function () {
+    store.dispatch("loadBasketData");
+  });
   /**
    * Loads user data after pageload
    */
@@ -88174,17 +88176,6 @@ var actions = {
         if (!basket.events.hasOwnProperty("AfterBasketChanged") && !basketItems.events.hasOwnProperty("AfterBasketChanged")) {
           commit("setBasket", basket.data);
           commit("setWishListIds", basket.data.itemWishListIds);
-        }
-
-        if (Math.random() > 0.5) {
-          console.log("TIMEOUT for 3 sec");
-          setTimeout(function () {
-            commit("setIsBasketInitiallyLoaded");
-            commit("setBasketItems", basketItems.data);
-          }, 3000);
-        } else {
-          commit("setIsBasketInitiallyLoaded");
-          commit("setBasketItems", basketItems.data);
         }
       }).catch(function (error, status) {
         console.log(error, status);

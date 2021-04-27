@@ -125,7 +125,11 @@ export function initClientStore(store)
     window.ceresStore = store;
 
     store.commit("initConsents");
-    store.dispatch("loadBasketData");
+
+    Vue.nextTick(() =>
+    {
+        store.dispatch("loadBasketData");
+    });
     /**
      * Loads user data after pageload
      */

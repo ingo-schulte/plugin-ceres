@@ -158,23 +158,6 @@ const actions =
                             commit("setBasket", basket.data);
                             commit("setWishListIds", basket.data.itemWishListIds);
                         }
-
-                        if (Math.random() > 0.5)
-                        {
-                            console.log("TIMEOUT for 3 sec");
-
-                            setTimeout(() =>
-                            {
-                                commit("setIsBasketInitiallyLoaded");
-                                commit("setBasketItems", basketItems.data);
-                            }, 3000);
-                        }
-                        else
-                        {
-                            commit("setIsBasketInitiallyLoaded");
-                            commit("setBasketItems", basketItems.data);
-                        }
-
                     })
                     .catch((error, status) =>
                     {
