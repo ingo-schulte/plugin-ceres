@@ -48,6 +48,7 @@
                 {% if searchStyle == "permanent" %}
                     {{ Twig.if("overrideSearchBar | trim is empty") }}
                         <div class="always-visible-search flex-grow-1">
+                            <lazy-hydrate never :trigger-hydration="true">
                                 <item-search>
                                     <div class="position-relative d-flex flex-grow-1">
                                         <input type="search" class="search-input px-3 py-2 flex-grow-1" aria-label="{{ Twig.print('trans("Ceres::Template.headerSearchTerm")') }}">
@@ -73,6 +74,7 @@
                                         </template>
                                     {% endif %}
                                 </item-search>
+                            </lazy-hydrate>
                         </div>
                     {{ Twig.else() }}
                         {{ Twig.print("overrideSearchBar | raw") }}
