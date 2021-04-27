@@ -88176,8 +88176,16 @@ var actions = {
           commit("setWishListIds", basket.data.itemWishListIds);
         }
 
-        commit("setIsBasketInitiallyLoaded");
-        commit("setBasketItems", basketItems.data);
+        if (Math.random() > 0.5) {
+          console.log("TIMEOUT for 3 sec");
+          setTimeout(function () {
+            commit("setIsBasketInitiallyLoaded");
+            commit("setBasketItems", basketItems.data);
+          }, 3000);
+        } else {
+          commit("setIsBasketInitiallyLoaded");
+          commit("setBasketItems", basketItems.data);
+        }
       }).catch(function (error, status) {
         console.log(error, status);
 
