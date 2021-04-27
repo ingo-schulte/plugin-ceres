@@ -48,7 +48,6 @@
                 {% if searchStyle == "permanent" %}
                     {{ Twig.if("overrideSearchBar | trim is empty") }}
                         <div class="always-visible-search flex-grow-1">
-                            <lazy-hydrate when-idle>
                                 <item-search>
                                     <div class="position-relative d-flex flex-grow-1">
                                         <input type="search" class="search-input px-3 py-2 flex-grow-1" aria-label="{{ Twig.print('trans("Ceres::Template.headerSearchTerm")') }}">
@@ -74,7 +73,6 @@
                                         </template>
                                     {% endif %}
                                 </item-search>
-                            </lazy-hydrate>
                         </div>
                     {{ Twig.else() }}
                         {{ Twig.print("overrideSearchBar | raw") }}
@@ -310,7 +308,7 @@
                                                     {{ Twig.elseif("language != defaultLanguage") }}
                                                         {{ Twig.set("url", "'/' ~ language ~ urls.trailingSlashSuffix") }}
                                                     {{ Twig.endif() }}
-                                                    <a class="nav-link" href="{{ Twig.print("url") }}" 
+                                                    <a class="nav-link" href="{{ Twig.print("url") }}"
                                                         data-testing="lang-select-{{ Twig.print("language") }}" data-update-url>
                                                         <i class="flag-icon flag-icon-{{ Twig.print("language") }}"></i>
                                                         {{ Twig.print('trans("Ceres::Template.header" ~ language | capitalize)') }}
