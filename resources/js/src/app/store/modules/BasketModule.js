@@ -158,6 +158,13 @@ const actions =
                             commit("setBasket", basket.data);
                             commit("setWishListIds", basket.data.itemWishListIds);
                         }
+
+                        Vue.nextTick(() =>
+                        {
+                            commit("setIsBasketInitiallyLoaded");
+                            commit("setBasketItems", basketItems.data);
+                        });
+
                     })
                     .catch((error, status) =>
                     {

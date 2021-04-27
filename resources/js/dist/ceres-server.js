@@ -82094,9 +82094,7 @@ function initClientListeners(store) {
 function initClientStore(store) {
   window.ceresStore = store;
   store.commit("initConsents");
-  vue__WEBPACK_IMPORTED_MODULE_1___default.a.nextTick(function () {
-    store.dispatch("loadBasketData");
-  });
+  store.dispatch("loadBasketData");
   /**
    * Loads user data after pageload
    */
@@ -82763,6 +82761,11 @@ var actions = {
           commit("setBasket", basket.data);
           commit("setWishListIds", basket.data.itemWishListIds);
         }
+
+        vue__WEBPACK_IMPORTED_MODULE_15___default.a.nextTick(function () {
+          commit("setIsBasketInitiallyLoaded");
+          commit("setBasketItems", basketItems.data);
+        });
       }).catch(function (error, status) {
         console.log(error, status);
 
